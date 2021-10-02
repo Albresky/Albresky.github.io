@@ -2,8 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/en/about/</loc><lastmod>2021-10-02T16:41:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/en/about/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://example.org/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://example.org/en/about/"
+                    /></url><url>
+            <loc>http://example.org/en/categories/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://example.org/categories/"
@@ -12,8 +20,8 @@
                     hreflang="en"
                     href="http://example.org/en/categories/"
                     /></url><url>
-            <loc>http://example.org/en/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/en/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/en/categories/documentation/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/en/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://example.org/"

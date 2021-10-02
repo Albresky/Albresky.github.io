@@ -2,9 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/about/</loc><lastmod>2021-10-02T16:41:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/content/</loc><lastmod>2021-10-02T16:41:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/</loc><lastmod>2021-10-02T16:41:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://example.org/about/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://example.org/en/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://example.org/about/"
+                    /></url><url>
+            <loc>http://example.org/content/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://example.org/en/"
@@ -13,10 +21,10 @@
                     hreflang="zh-cn"
                     href="http://example.org/"
                     /></url><url>
-            <loc>http://example.org/content/about/</loc><lastmod>2021-10-02T16:41:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/beta-test/</loc><lastmod>2021-09-30T15:40:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2021-09-30T15:40:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2021-09-29T18:58:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://example.org/content/about/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/2021/09/beta-test.md/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://example.org/en/categories/"
@@ -25,12 +33,12 @@
                     hreflang="zh-cn"
                     href="http://example.org/categories/"
                     /></url><url>
-            <loc>http://example.org/first-post/</loc><lastmod>2021-09-29T18:58:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/categories/hugo/</loc><lastmod>2021-09-29T18:58:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/content/_index.fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/categories/documentation/_index.fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://example.org/2021/09/beta-test.md/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/hugo/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/content/_index.fr/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/documentation/_index.fr/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/tags/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://example.org/en/tags/"
@@ -39,5 +47,5 @@
                     hreflang="zh-cn"
                     href="http://example.org/tags/"
                     /></url><url>
-            <loc>http://example.org/tags/installation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/tags/configuration/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>http://example.org/tags/installation/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/configuration/</loc><lastmod>2021-10-02T16:47:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
