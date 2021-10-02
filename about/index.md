@@ -2,10 +2,11 @@
 
 
 {{< style "img { height: 1.25rem; }" >}}
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/khusika/FeelIt?style=flat-square)](https://github.com/khusika/FeelIt/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.84.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![许可](https://img.shields.io/github/license/khusika/FeelIt?style=flat-square)](https://github.com/khusika/FeelIt/blob/main/LICENSE)
-[![GitHub stars](https://github.com/Albresky/imisuHugo.github.io?style=social)](https://github.com/Albresky/imisuHugo.github.io)
-[![GitHub forks](https://github.com/Albresky/imisuHugo.github.io?style=social)](https://github.com/Albresky/imisuHugo.github.io)
+[![License](https://img.shields.io/github/license/khusika/FeelIt?style=flat-square)](https://github.com/khusika/FeelIt/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/khusika/FeelIt?style=social)](https://github.com/khusika/FeelIt)
+[![GitHub forks](https://img.shields.io/github/forks/khusika/FeelIt?style=social)](https://github.com/khusika/FeelIt/fork)
 {{< /style >}}
 
 ### 特性
