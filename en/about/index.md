@@ -1,15 +1,6 @@
 # About imisu
 
 
-
-{{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/khusika/FeelIt?style=flat-square)](https://github.com/khusika/FeelIt/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.84.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/khusika/FeelIt?style=flat-square)](https://github.com/khusika/FeelIt/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/khusika/FeelIt?style=social)](https://github.com/khusika/FeelIt)
-[![GitHub forks](https://img.shields.io/github/forks/khusika/FeelIt?style=social)](https://github.com/khusika/FeelIt/fork)
-{{< /style >}}
-
 {{< admonition warning >}}
 Sorry, this article has not been completely translated into **English**.
 Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/Albresky/imisuHugo.github.io) to this project!

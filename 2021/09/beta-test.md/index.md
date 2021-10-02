@@ -1,10 +1,7 @@
-# First Post
+# Beta Test
 
-
-# introduction
-## First test :grinning:
-
-1) of my Blog Website design. I've fixed some issues and bugs as following:
+# Abstract
+This is the second version(Beta01) of my Blog Website design. I've fixed some issues and bugs as following:
 ## Add some fuctions like:
  - the the writers's avatar
  - the mapbox(unfinished)
