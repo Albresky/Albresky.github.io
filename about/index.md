@@ -1,4 +1,4 @@
-# À propos de FeelIt
+# À propos de imisu
 
 
 {{< style "img { height: 1.25rem; }" >}}
@@ -10,9 +10,8 @@
 
 {{< admonition warning >}}
 Sorry, this article has not been completely translated into **French**.
-Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/Albresky/imisuHugo.github.io) to the theme!
+Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/Albresky/imisuHugo.github.io) to this project!
 {{< /admonition >}}
-
 
 ### Features
 
