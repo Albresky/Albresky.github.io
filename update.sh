@@ -1,31 +1,33 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo -e "\033[0;32mDeploying updates to gh-pages...\033[0m"
 
-# Build the project.
-hugo # if using a theme, replace with hugo -t <YOURTHEME>
+# 部署到 github pages 脚本
+# 错误时终止脚本
+set -e
 
 # 删除打包文件夹
 rm -rf public
 
-# Go To Public folder
+# 打包。even 是主题
+hugo  # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# 进入打包文件夹
 cd public
+
 # Add changes to git.
+git init
 git add .
 
 # Commit changes.
-msg="rebuilding site `date` "
-
-echo -e "\033[0;32m$msg\033[0m"
-
+msg="building site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
 git commit -m "$msg"
 
-# Push source and build repos.
-git push -f origin master
-
-# Come Back up to the Project Root
+# 推送到github  
+git push git@github.com:Albresky/Albresky.github.io.git master
+git subtree push --prefix public origin gh-pages
+# 回到原文件夹
 cd ..
-
