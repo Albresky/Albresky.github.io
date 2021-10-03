@@ -8,16 +8,15 @@ rm -rf public
 #重建网站
 hugo
 
-git init
-git add .
-
 git add public && git commit -m "update 'public'"
-git subtree push --prefix public origin gh-pages
+git subtree push -f --prefix public origin gh-pages
 
 #重命名.gitignore
 mv .gitignore .gitignore.bak
 
-git push git@github.com:Albresky/Albresky.github.io.git master
+git add .
+
+git push -f origin master
 
 #恢复命名.gitignore
 mv .gitignore.bak .gitignore
