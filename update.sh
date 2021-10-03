@@ -2,24 +2,33 @@
 
 git pull
 
-echo "Deploy the master-branch"
+#重构master-branch
+echo -e "\n 重构master-branch \n" 
 
-echo "删除public"
+
+#删除public
+echo -e "\n 删除public \n" 
 rm -rf public
 
-echo "hugo重构"
+#hugo重构
+echo -e "\n hugo重构 \n" 
 hugo
 
-#重命名.gitignore
-echo "重命名.gitignore"
+#备份.gitignore -> .gitignore.bak
+echo -e "\n 备份.gitignore -> .gitignore.bak \n"
 mv .gitignore .gitignore.bak
+
+#部署gh-pages分支
+git add public && git commit -m "update 'gh-pages' `date`"
+git subtree push -f --prefix public origin gh-pages
+
+#恢复命名.gitignore
+echo -e "\n 恢复.gitignore.bak -> .gitignore \n"
+mv .gitignore.bak .gitignore
 
 git add .
 
-echo "部署master分支"
-git commit -m "update master-branch at `date`"
+echo -e "\n 部署master分支 \n"
+git commit -m "update master-branch `date`"
 git push -f origin master
 
-#恢复命名.gitignore
-echo "恢复命名.gitignore"
-mv .gitignore.bak .gitignore
