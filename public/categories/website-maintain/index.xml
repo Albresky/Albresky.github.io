@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Website-maintain - 分类 - imisu</title>
+        <link>http://Albresky.github.io/categories/website-maintain/</link>
+        <description>Website-maintain - 分类 - imisu</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
+            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</lastBuildDate><atom:link href="http://Albresky.github.io/categories/website-maintain/" rel="self" type="application/rss+xml" /><item>
+    <title>Beta Test</title>
+    <link>http://Albresky.github.io/2021/09/beta-test.md/</link>
+    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://Albresky.github.io/2021/09/beta-test.md/</guid>
+    <description><![CDATA[Abstract This is the second version(Beta01) of my Blog Website design. I&rsquo;ve fixed some issues and bugs as following:
+Add some fuctions like:  the the writers&rsquo;s avatar the mapbox(unfinished) Cookies permission request page(Bugs: ain&rsquo;t appear sometimes) Copyright at the homepage Dynamic title added emoji system, but not tested yet.  Bugs:  contents won&rsquo;t display at bottle of the homepage, such as &ldquo;C 2021&rdquo; things didn&rsquo;t sync to Github, such as the posts are invisible at homepage, titles are still default on the &ldquo;Posts&rdquo; page when the web is released.]]></description>
+</item>
+<item>
+    <title>First Post</title>
+    <link>http://Albresky.github.io/2021/09/beta-test.md/</link>
+    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://Albresky.github.io/2021/09/beta-test.md/</guid>
+    <description><![CDATA[introduction First test  😀  ]]></description>
+</item>
+</channel>
+</rss>
