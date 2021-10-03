@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#pull检查
+echo -e "\n pull检查 \n"
 git pull
 
 #重构master-branch
@@ -19,6 +21,10 @@ git add .
 echo -e "\n 部署master分支 \n"
 git commit -m "update master-branch `date`"
 git push -f origin master
+
+#pull检查
+echo -e "\n pull检查 \n"
+git pull
 
 #备份.gitignore -> .gitignore.bak
 echo -e "\n 备份.gitignore -> .gitignore.bak \n"
