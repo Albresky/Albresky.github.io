@@ -410,7 +410,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
     # 桌面端导航栏模式 ("fixed", "normal", "auto")
-    desktopMode = "fixed"
+    desktopMode = "auto"
     # mobile header mode ("fixed", "normal", "auto")
     # 移动端导航栏模式 ("fixed", "normal", "auto")
     mobileMode = "auto"
@@ -431,7 +431,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = true
+      typeit = false
       # whether to show RSS icon
       # 是否显示RSS图标
       rss = true
@@ -955,7 +955,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = "2021/09/Beta-test.md"
+  posts = ""
   
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
