@@ -1,4 +1,4 @@
-baseURL = "http://Albresky.github.io/public"
+baseURL = "http://Albresky.github.io/"
 
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
