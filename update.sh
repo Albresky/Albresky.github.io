@@ -25,8 +25,9 @@ git commit -m "update master-branch `date`"
 git push -f origin master
 
 #部署gh-pages分支
+echo -e "\n 部署gh-pages分支 \n"
 git add public && git commit -m "update 'gh-pages' `date`"
-git subtree push -f --prefix public origin gh-pages
+git subtree push --prefix public origin gh-pages
 
 #恢复命名.gitignore
 #echo -e "\n 恢复.gitignore.bak -> .gitignore \n"
