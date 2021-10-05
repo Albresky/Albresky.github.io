@@ -425,7 +425,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       name = "imisu"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='fas fa-hand-holding-heart fa-fw'></i>"
+      pre = "<i class='fas fa-dove'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -634,7 +634,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # Vssue platform API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
         # Vssue 平台 API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
         platform = "github"
-        owner = "khusika"
+        owner = "Albresky"
         repo = "comments"
         clientId = "85f66799bb256a5064be"
         clientSecret = ""

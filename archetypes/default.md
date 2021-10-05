@@ -7,12 +7,13 @@ draft: false
 author: "Albresky"
 authorLink: ""
 description: ""
-
+resources:
+- name: "featured-image"
+  src: "featured-image.webp"
+- name: "featured-image-preview"
+  src: "featured-image-preview.webp"
 tags: []
 categories: []
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
 
 featuredImage: ""
 featuredImagePreview: ""
@@ -22,7 +23,7 @@ toc:
 math:
   enable: true
 lightgallery: true
-license: ""
 ---
-
+Demo - **黑客帝国4：矩阵重生** 预告
 <!--more-->
+
