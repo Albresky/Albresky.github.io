@@ -11,7 +11,6 @@
                     hreflang="zh-cn"
                     href="/about/"
                     /></url><url>
-            <loc>/beta-test/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/categories/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -21,6 +20,7 @@
                     hreflang="zh-cn"
                     href="/categories/"
                     /></url><url>
+            <loc>/first-post/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -30,9 +30,24 @@
                     hreflang="zh-cn"
                     href="/"
                     /></url><url>
-            <loc>/posts/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/categories/website-maintain/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/first-post/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/posts/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="/posts/"
+                    /></url><url>
+            <loc>/categories/website-maintain/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/categories/website-maintain/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="/categories/website-maintain/"
+                    /></url><url>
             <loc>/tags/content/_index.fr/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/tags/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
