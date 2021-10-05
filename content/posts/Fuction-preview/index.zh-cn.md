@@ -2,7 +2,7 @@
 title: "功能预览"
 subtitle: ""
 date: 2021-10-04T17:20:00+08:00
-lastmod: 2021-10-05T17:20:00+08:00
+lastmod: 2021-10-05T20:20:00+08:00
 draft: false
 author: "Albresky"
 authorLink: ""
@@ -14,9 +14,6 @@ resources:
   src: "preview-s.png"
 tags: []
 categories: []
-
-featuredImage: ""
-featuredImagePreview: ""
 
 toc:
   enable: true
@@ -968,15 +965,11 @@ $$ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} $$
 
 转义字符语法可以帮助你渲染出想要的内容:
 
-```markdown
-{{??}X} -> X
-```
+**此处没有通过github语法检测**
 
 例如, 两个 `:` 会启用 emoji 语法. 但有时候这不是你想要的结果. 可以像这样使用转义字符语法:
 
-```markdown
-{{??}:}joy:
-```
+**此处没有通过github语法检测**
 
 呈现的输出效果如下:
 
