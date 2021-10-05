@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Web-Maintain - 分类 - imisu</title>
+        <link>/categories/web-maintain/</link>
+        <description>Web-Maintain - 分类 - imisu</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
+            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</lastBuildDate><atom:link href="/categories/web-maintain/" rel="self" type="application/rss+xml" /><item>
+    <title>Beta测试</title>
+    <link>/beta-test/</link>
+    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/beta-test/</guid>
+    <description><![CDATA[<h1 id="摘要">摘要</h1>
+<p>这是博客网页的第一版设计. 如下是一些Bug和已修复的问题：</p>]]></description>
+</item>
+<item>
+    <title>第一篇文章</title>
+    <link>/first-post/</link>
+    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/first-post/</guid>
+    <description><![CDATA[介绍 第一次测试 😀]]></description>
+</item>
+</channel>
+</rss>

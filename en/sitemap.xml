@@ -47,7 +47,15 @@
                     hreflang="en"
                     href="/en/posts/"
                     /></url><url>
-            <loc>/en/categories/website-maintain/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/categories/web-maintain/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="/categories/web-maintain/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="/en/categories/web-maintain/"
+                    /></url><url>
             <loc>/en/first-post/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -57,6 +65,7 @@
                     hreflang="en"
                     href="/en/first-post/"
                     /></url><url>
+            <loc>/en/categories/website-maintain/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/en/categories/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
