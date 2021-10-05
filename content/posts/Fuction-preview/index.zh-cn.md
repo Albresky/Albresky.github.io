@@ -13,7 +13,7 @@ resources:
 - name: "featured-image-preview"
   src: "preview-s.png"
 tags: []
-categories: []
+categories: ["Web-Maintain"]
 
 toc:
   enable: true
