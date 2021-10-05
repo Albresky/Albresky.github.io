@@ -1,4 +1,4 @@
-baseURL = "https://github.com/Albresky/Albresky.github.io/tree/gh-pages"
+baseURL = ""
 
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
@@ -98,7 +98,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/Albresky/imisuhugo.github.io"
+        url = "https://github.com/Albresky/Albresky.github.io"
         title = "GitHub"
         weight = 6
     [languages.zh-cn.params]
@@ -153,7 +153,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         paramTitle = "个人信息"
         # 您网站的一般描述
         # 可以用markdown样式写
-        description = "[imisu](https://github.com/Albresky/imisuhugo.github.io) 是一个由 [Albresky] 建立的**简洁**、**优雅**且**高效**的基于[Hugo](https://gohugo.io/) 主题的个人博客。"
+        description = "[imisu](https://github.com/Albresky/Albresky.github.io) 是一个由 [Albresky] 建立的**简洁**、**优雅**且**高效**的基于[Hugo](https://gohugo.io/) 主题的个人博客。"
         # 你的状态描述
         [[languages.zh-cn.params.about.status]]
           faIcon = "fas fa-briefcase fa-fw"
@@ -162,7 +162,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         [[languages.zh-cn.params.about.status]]
           title = "地点"
           faIcon = "fas fa-map-marker-alt"
-          desc = "杭州"
+          desc = "地球"
         # 参数说明
         [[languages.zh-cn.params.about.parameter]]
           language = "UI/UX"
@@ -184,11 +184,11 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
           # 主页显示头像的 URL
-          avatarURL = "/image/avatar.webp"
+          avatarURL = "/images/avatar.webp"
           # 主页显示的网站标题 (支持 HTML 格式)
-          title = ""
+          title = "imisu | I Miss U"
           # 主页显示的网站副标题 (支持 HTML 格式)
-          subtitle = "Improve ourselves, ain't miss and missed. "
+          subtitle = "一个简洁、优雅，且高效的博客"
           # 是否为副标题显示打字机动画
           typeit = true
           # 是否显示社交账号
@@ -265,7 +265,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/Albresky/imisuhugo.github.io"
+        url = "https://github.com/Albresky/Albresky.github.io"
         title = "GitHub"
         weight = 6
     [languages.en.params]
@@ -320,7 +320,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         paramTitle = "Personal Information"
         # general description of your site
         # can be write with markdown style
-        description = "[[imisu](https://github.com/Albresky/imisuhugo.github.io) is a **clean**, **elegant** but **advanced** personal blog based on theme [Hugo](https://gohugo.io/)."
+        description = "[[imisu](https://github.com/Albresky/Albresky.github.io) is a **clean**, **elegant** but **advanced** personal blog based on theme [Hugo](https://gohugo.io/)."
         # description of your status
         [[languages.en.params.about.status]]
           faIcon = "fas fa-building"
@@ -355,9 +355,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/image/avatar.webp"
+          avatarURL = "/images/avatar.webp"
           # title shown in home page (HTML format is supported)
-          title = ""
+          title = "imisu | I Miss U"
           # subtitle shown in home page (HTML format is supported)
           subtitle = "A Clean, Elegant but Advanced Blog"
           # whether to use typeit animation for subtitle
@@ -384,7 +384,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/Albresky/imisuhugo.github.io"
+  gitRepo = "https://github.com/Albresky/Albresky.github.io"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -393,7 +393,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["images/favicon.ico"]
   # whether to enable CSS and JS source mapping
   SourceMap = false
   description = "这里是 imisu"
@@ -431,7 +431,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = true
+      typeit = false
       # whether to show RSS icon
       # 是否显示RSS图标
       rss = true
@@ -610,7 +610,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       Renren = false
       Myspace = false
       Blogger = false
-      Baidu = true
+      Baidu = false
       Odnoklassniki = false
       Evernote = false
       Skype = false
@@ -699,9 +699,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "Albresky/imisu_CommentSys_utterances"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
@@ -955,7 +955,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = "2021/09/Beta-test.md"
+  posts = ":filename"
   
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
