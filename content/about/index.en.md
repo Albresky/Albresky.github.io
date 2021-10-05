@@ -93,12 +93,11 @@ Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw
 
 ### License
 
-FeelIt is licensed under the **MIT** license.
-
-Check the [LICENSE file](https://github.com/khusika/FeelIt/blob/main/LICENSE) for details.
+imisu is licensed under the **MIT** license.
 
 Thanks to the authors of following resources included in the theme:
 
+* [FeelIt](https://github.com/khusika/FeelIt)
 * [modern-normalize](https://github.com/sindresorhus/modern-normalize)
 * [Font Awesome](https://fontawesome.com/)
 * [Simple Icons](https://github.com/simple-icons/simple-icons)
