@@ -570,14 +570,14 @@ pie
 一个简单的 `mapbox` 示例:
 
 ```markdown
-{{</* mapbox 121.485 31.233 12 */>}}
+{{</* mapbox 120.345 30.316 12 */>}}
 或者
-{{</* mapbox lng=121.485 lat=31.233 zoom=12 */>}}
+{{</* mapbox lng=120.345 lat=30.316 zoom=12 */>}}
 ```
 
 呈现的输出效果如下:
 
-{{< mapbox 121.485 31.233 12 >}}
+{{< mapbox 120.345 30.316 12 >}}
 
 一个带有自定义样式的 `mapbox` 示例:
 
@@ -640,14 +640,14 @@ pie
 一个使用音乐平台 URL 的自动识别的 `music` 示例:
 
 ```markdown
-{{</* music auto="https://music.163.com/#/playlist?id=60198" */>}}
+{{</* music auto="https://music.163.com/#/song?id=1821466030" */>}}
 或者
-{{</* music "https://music.163.com/#/playlist?id=60198" */>}}
+{{</* music "https://music.163.com/#/song?id=1821466030" */>}}
 ```
 
 呈现的输出效果如下:
 
-{{< music auto="https://music.163.com/#/playlist?id=60198" >}}
+{{< music auto="https://music.163.com/#/song?id=1821466030" >}}
 
 ### 7.3 自定义音乐平台, 类型和 ID {#custom-server}
 
@@ -672,14 +672,14 @@ pie
 一个使用自定义音乐平台的 `music` 示例:
 
 ```markdown
-{{</* music server="netease" type="song" id="1868553" */>}}
+{{</* music server="netease" type="song" id="1821466030" */>}}
 或者
-{{</* music netease song 1868553 */>}}
+{{</* music netease song 1821466030 */>}}
 ```
 
 呈现的输出效果如下:
 
-{{< music netease song 1868553 >}}
+{{< music netease song 1821466030 >}}
 
 ### 7.4 其它参数 {#other-parameters}
 
@@ -731,7 +731,9 @@ pie
 
     音乐列表的最大高度, 默认值是 `340px`.
 
-## 8 bilibili
+## 8 video
+
+### 8.1 bilibili
 
 {{< version 0.2.0 changed >}}
 
@@ -740,38 +742,231 @@ pie
 如果视频只有一个部分, 则仅需要视频的 BV `id`, 例如:
 
 ```code
-https://www.bilibili.com/video/BV1Sx411T7QQ
+https://www.bilibili.com/video/BV1ZX4y1V7Qb
 ```
 
 一个 `bilibili` 示例:
 
 ```markdown
-{{</* bilibili BV1Sx411T7QQ */>}}
+{{</* bilibili BV1ZX4y1V7Qb */>}}
 或者
-{{</* bilibili id=BV1Sx411T7QQ */>}}
+{{</* bilibili id=BV1ZX4y1V7Qb */>}}
 ```
 
 呈现的输出效果如下:
 
-{{< bilibili id=BV1Sx411T7QQ >}}
+{{< bilibili id=BV1ZX4y1V7Qb >}}
 
 如果视频包含多个部分, 则除了视频的 BV `id` 之外, 还需要 `p`, 默认值为 `1`, 例如:
 
 ```code
-https://www.bilibili.com/video/BV1TJ411C7An?p=3
+https://www.bilibili.com/video/BV17f4y1G7JU?p=1
 ```
 
 一个带有 `p` 参数的 `bilibili` 示例:
 
 ```markdown
-{{</* bilibili BV1TJ411C7An 3 */>}}
+{{</* bilibili BV17f4y1G7JU 1 */>}}
 或者
-{{</* bilibili id=BV1TJ411C7An p=3 */>}}
+{{</* bilibili id=BV17f4y1G7JU p=1 */>}}
 ```
 
 呈现的输出效果如下:
 
-{{< bilibili id=BV1TJ411C7An p=3 >}}
+{{< bilibili id=BV17f4y1G7JU p=1 >}}
+
+{{< admonition warning >}}
+以下内容可用需要 **VPN** 才能预览
+{{< /admonition >}}
+
+### 8.2 vimeo
+
+[`vimeo` 的文档](https://gohugo.io/content-management/shortcodes#vimeo)
+
+一个 `vimeo` 示例:
+
+```markdown
+{{</* vimeo 146022717 */>}}
+```
+
+呈现的输出效果如下:
+
+{{< vimeo 146022717 >}}
+
+{{< admonition warning >}}
+以下内容可用需要 **VPN** 才能预览
+{{< /admonition >}}
+
+### 8.3 YouTube
+
+[`YouTube` 的文档](https://gohugo.io/content-management/shortcodes#youtube)
+
+一个 `YouTube` 示例:
+
+```markdown
+{{</* youtube w7Ft2ymGmfc */>}}
+```
+
+呈现的输出效果如下:
+
+{{< youtube w7Ft2ymGmfc >}}
+
+## 9 Markdown 扩展语法 {#extended-markdown-syntax}
+
+### 9.1 Emoji 支持
+
+这部分内容在 [Emoji 支持页面](../emoji-support/) 中介绍.
+
+### 9.2 数学公式
+
+**FeelIt** 基于 [$ \KaTeX $](https://katex.org/) 提供数学公式的支持.
+
+在你的 [网站配置](../theme-documentation-basics#site-configuration) 中的 `[params.math]` 下面设置属性 `enable = true`,
+并在文章的前置参数中设置属性 `math: true`来启用数学公式的自动渲染.
+
+{{< admonition tip >}}
+有一份 [$ \KaTeX $ 中支持的 $ \TeX $ 函数](https://katex.org/docs/supported.html) 清单.
+{{< /admonition >}}
+
+#### 9.2.1 公式块
+
+默认的公式块分割符是 `$$`/`$$` 和 `\\[`/`\\]`:
+
+```markdown
+$$ c = \pm\sqrt{a^2 + b^2} $$
+
+\\[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\]
+```
+
+呈现的输出效果如下:
+
+$$ c = \pm\sqrt{a^2 + b^2} $$
+
+\\[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\]
+
+#### 9.2.2 行内公式
+
+默认的行内公式分割符是  `$`/`$` 和 `\\(`/`\\)`:
+
+```markdown
+$ c = \pm\sqrt{a^2 + b^2} $ 和 \\( f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\)
+```
+
+呈现的输出效果如下:
+
+$ c = \pm\sqrt{a^2 + b^2} $ 和 \\( f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\)
+
+{{< admonition tip >}}
+你可以在 [网站配置](../theme-documentation-basics#site-configuration) 中自定义公式块和行内公式的分割符.
+{{< /admonition >}}
+
+#### 9.2.3 Copy-tex
+
+**[Copy-tex](https://github.com/Khan/KaTeX/tree/master/contrib/copy-tex)** 是一个 **$ \KaTeX $** 的插件.
+
+通过这个扩展, 在选择并复制 $ \KaTeX $ 渲染的公式时, 会将其 $ \LaTeX $ 源代码复制到剪贴板.
+
+在你的 [网站配置](../theme-documentation-basics#site-configuration) 中的 `[params.math]` 下面设置属性 `copyTex = true` 来启用 Copy-tex.
+
+选择并复制上一节中渲染的公式, 可以发现复制的内容为 LaTeX 源代码.
+
+#### 9.2.4 mhchem
+
+**[mhchem](https://github.com/Khan/KaTeX/tree/master/contrib/mhchem)** 是一个 **$ \KaTeX $** 的插件.
+
+通过这个扩展, 你可以在文章中轻松编写漂亮的化学方程式.
+
+在你的 [网站配置](../theme-documentation-basics#site-configuration) 中的 `[params.math]` 下面设置属性 `mhchem = true` 来启用 mhchem.
+
+```markdown
+$$ \ce{CO2 + C -> 2 CO} $$
+
+$$ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} $$
+```
+
+呈现的输出效果如下:
+
+$$ \ce{CO2 + C -> 2 CO} $$
+
+$$ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} $$
+
+### 9.3 字符注音或者注释 {#ruby}
+
+```markdown
+[Hugo]{?^}(一个开源的静态网站生成工具)
+```
+
+呈现的输出效果如下:
+
+[Hugo]^(一个开源的静态网站生成工具)
+
+### 9.4 分数 {#fraction}
+
+```markdown
+[浅色]{?/}[深色]
+
+[99]{?/}[100]
+```
+
+呈现的输出效果如下:
+
+[浅色]/[深色]
+
+[90]/[100]
+
+### Font Awesome {#fontawesome}
+
+使用 [Font Awesome](https://fontawesome.com/) 作为图标库.
+你同样可以在文章中轻松使用这些图标.
+
+从 [Font Awesome 网站](https://fontawesome.com/icons?d=gallery) 上获取所需的图标 `class`.
+
+```markdown
+去露营啦! {?:}(fas fa-campground fa-fw): 很快就回来.
+
+真开心! {?:}(far fa-grin-tears):
+```
+
+呈现的输出效果如下:
+
+去露营啦! :(fas fa-campground fa-fw): 很快就回来.
+
+真开心! :(far fa-grin-tears):
+
+### 转义字符 {#escape-character}
+
+在某些特殊情况下 (编写这个主题文档时 :(far fa-grin-squint-tears):),
+你的文章内容会与 Markdown 的基本或者扩展语法冲突, 并且无法避免.
+
+转义字符语法可以帮助你渲染出想要的内容:
+
+```markdown
+{{??}X} -> X
+```
+
+例如, 两个 `:` 会启用 emoji 语法. 但有时候这不是你想要的结果. 可以像这样使用转义字符语法:
+
+```markdown
+{{??}:}joy:
+```
+
+呈现的输出效果如下:
+
+**{?:}joy{?:}** 而不是 **:joy:**
+
+{{< admonition tip >}}
+这个方法可以间接解决一个还未解决的 **[Hugo 的 issue](https://github.com/gohugoio/hugo/issues/4978)**.
+{{< /admonition >}}
+
+另一个例子是:
+
+```markdown
+[link{{??}]}(#escape-character)
+```
+
+呈现的输出效果如下:
+
+**[link{?]}(#escape-character)** 而不是 **[link](#escape-character)**.
 
 ## 10 typeit
 
