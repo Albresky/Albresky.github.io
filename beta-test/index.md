@@ -1,11 +1,12 @@
-# Beta Test
+# Beta测试
 
 # 摘要
 这是博客网页的第一版设计. 如下是一些Bug和已修复的问题：
+<!--more-->
 ## 增加了一些功能:
  - 作者的头像
  - mapbox（我也不知道有什么用 :sweat_smile:）
- - Cookies 请求页面~~(Bugs: ain't appear sometimes)~~
+ - Cookies 请求页面(~~Bugs: ain't appear sometimes~~)
  - 页脚的版权标识
  - ~~动态标题~~(已改为动态副标题)
  - 增加了表情系统~~但还未测试。~~

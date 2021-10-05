@@ -5,7 +5,7 @@ This is the second version(Beta01) of my Blog Website design. I've fixed some is
 ## Add some fuctions like:
  - the the writers's avatar
  - the mapbox(unfinished :sweat_smile:)
- - Cookies permission request page~~(Bugs: ain't appear sometimes)~~
+ - Cookies permission request page(~~Bugs: ain't appear sometimes~~)
  - Copyright at the homepage
  - ~~Dynamic title~~(changed to dynamic subtitle)
  - added emoji system~~but not tested yet.~~
