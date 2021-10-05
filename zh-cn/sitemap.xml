@@ -2,64 +2,64 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/about/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/about/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/en/about/"
+                        href="/en/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/about/"
+                    href="/about/"
                     /></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/2021/09/beta-test.md/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/categories/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/2021/09/beta-test.md/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/en/categories/"
+                        href="/en/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/categories/"
+                    href="/categories/"
                     /></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/en/"
+                        href="/en/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/"
+                    href="/"
                     /></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/posts/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/categories/website-maintain/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/2021/09/beta-test.md/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/tags/content/_index.fr/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/tags/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/posts/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/website-maintain/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/2021/09/beta-test.md/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/content/_index.fr/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/en/tags/"
+                        href="/en/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/tags/"
+                    href="/tags/"
                     /></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/tags/installation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/categories/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/tags/installation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/en/categories/documentation/"
+                        href="/en/categories/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/categories/documentation/"
+                    href="/categories/documentation/"
                     /></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/en/documentation/"
+                        href="/en/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://github.com/Albresky/Albresky.github.io/tree/gh-pages/documentation/"
+                    href="/documentation/"
                     /></url><url>
-            <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/tags/configuration/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
+            <loc>/tags/configuration/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>

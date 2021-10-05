@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/zh-cn/sitemap.xml</loc>
+    <loc>zh-cn/sitemap.xml</loc>
     
       <lastmod>2021-10-03T17:38:53+08:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://github.com/Albresky/Albresky.github.io/tree/gh-pages/en/sitemap.xml</loc>
+    <loc>en/sitemap.xml</loc>
     
       <lastmod>2021-10-03T17:38:53+08:00</lastmod>
     
