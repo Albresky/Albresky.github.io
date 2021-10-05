@@ -24,7 +24,7 @@ Hugo **extended** 版本对于 `style` shortcode 是必需的.
 ~~呈现的输出效果如下:~~
 # **此处github检测有问题**
 
-## 2 link
+## 2 link 链接
 
 `link` shortcode 是 [Markdown 链接语法](../basic-markdown-syntax#links) 的替代.
 `link` shortcode 可以提供一些其它的功能并且可以在代码块中使用.
@@ -583,7 +583,7 @@ pie
 
 {{< mapbox -122.252 37.453 10 false "mapbox://styles/mapbox/streets-zh-v1?optimize=true" >}}
 
-## 7 music
+## 7 music 音乐
 
 `music` shortcode 基于 [APlayer](https://github.com/MoePlayer/APlayer) 和 [MetingJS](https://github.com/metowolf/MetingJS) 提供了一个内嵌的响应式音乐播放器.
 
@@ -723,7 +723,7 @@ pie
 
     音乐列表的最大高度, 默认值是 `340px`.
 
-## 8 video
+## 8 video 视频
 
 ### 8.1 bilibili
 
@@ -952,7 +952,7 @@ $$ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} $$
 
 **[link{?]}(#escape-character)** 而不是 **[link](#escape-character)**.
 
-## 10 typeit
+## 10 typeit 打字动画
 
 `typeit` shortcode 基于 [TypeIt](https://typeitjs.com/) 提供了打字动画.
 
@@ -1047,7 +1047,7 @@ public class HelloWorld {
 **然后**, 这个段落开始
 {{< /typeit >}}
 
-## 11 script
+## 11 script JS脚本
 
 `script` shortcode 用来在你的文章中插入 **:(fab fa-js fa-fw): Javascript** 脚本.
 
