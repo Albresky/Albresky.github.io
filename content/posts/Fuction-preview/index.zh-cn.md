@@ -30,8 +30,6 @@ imisu | **功能预览 Function Preview**
 
 ## 1 Style 自定义样式
 
-{{< version 0.2.0 changed >}}
-
 {{< admonition >}}
 Hugo **extended** 版本对于 `style` shortcode 是必需的.
 {{< /admonition >}}
@@ -53,12 +51,10 @@ Hugo **extended** 版本对于 `style` shortcode 是必需的.
 
 ## 2 link
 
-{{< version 0.2.0 >}}
-
 `link` shortcode 是 [Markdown 链接语法](../basic-markdown-syntax#links) 的替代.
 `link` shortcode 可以提供一些其它的功能并且可以在代码块中使用.
 
-{{< version 0.2.10 >}} 支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
+支持本地资源引用的完整用法.
 
 `link` shortcode 有以下命名参数:
 
@@ -120,11 +116,9 @@ Hugo **extended** 版本对于 `style` shortcode 是必需的.
 
 ## 3 image 图片{#image}
 
-{{< version 0.2.0 changed >}}
-
 `image` shortcode 是 [`figure` shortcode](../theme-documentation-built-in-shortcodes#figure) 的替代. `image` shortcode 可以充分利用 [lazysizes](https://github.com/aFarkas/lazysizes) 和 [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js) 两个依赖库.
 
-{{< version 0.2.10 >}} 支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
+支持本地资源引用的完整用法.
 
 `image` shortcode 有以下命名参数:
 
@@ -250,7 +244,7 @@ Hugo **extended** 版本对于 `style` shortcode 是必需的.
 
     `admonition` 横幅的标题, 默认值是 **type** 参数的值.
 
-* **open** *[可选]* (**第三个**位置参数) {{< version 0.2.0 changed >}}
+* **open** *[可选]* (**第三个**位置参数)
 
     横幅内容是否默认展开, 默认值是 `true`.
 
@@ -538,8 +532,6 @@ pie
 
 ## 6 mapbox 地图
 
-{{< version 0.2.0 >}}
-
 [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js) 是一个 JavaScript 库，它使用 WebGL, 以 [vector tiles](https://docs.mapbox.com/help/glossary/vector-tiles/) 和 [Mapbox styles](https://docs.mapbox.com/mapbox-gl-js/style-spec/) 为来源, 将它们渲染成互动式地图.
 
 `mapbox` shortcode 有以下命名参数来使用 Mapbox GL JS:
@@ -624,7 +616,7 @@ pie
 
 ### 7.1 自定义音乐 URL {#custom-music-url}
 
-{{< version 0.2.10 >}} 支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
+支持本地资源引用的完整用法.
 
 `music` shortcode 有以下命名参数来使用自定义音乐 URL:
 
@@ -665,14 +657,14 @@ pie
 一个使用音乐平台 URL 的自动识别的 `music` 示例:
 
 ```markdown
-{{</* music auto="https://music.163.com/#/song?id=1821466030" */>}}
+{{</* music auto="https://music.163.com/#/playlist?id=639748708" */>}}
 或者
-{{</* music "https://music.163.com/#/song?id=1821466030" */>}}
+{{</* music "https://music.163.com/#/playlist?id=639748708" */>}}
 ```
 
 呈现的输出效果如下:
 
-{{< music auto="https://music.163.com/#/song?id=1821466030" >}}
+{{< music auto="https://music.163.com/#/playlist?id=639748708" >}}
 
 ### 7.3 自定义音乐平台, 类型和 ID {#custom-server}
 
@@ -712,7 +704,7 @@ pie
 
 * **theme** *[可选]*
 
-    {{< version 0.2.0 changed >}} 音乐播放器的主题色, 默认值是 `#448aff`.
+    音乐播放器的主题色, 默认值是 `#448aff`.
 
 * **fixed** *[可选]*
 
@@ -759,8 +751,6 @@ pie
 ## 8 video
 
 ### 8.1 bilibili
-
-{{< version 0.2.0 changed >}}
 
 `bilibili` shortcode 提供了一个内嵌的用来播放 bilibili 视频的响应式播放器.
 
@@ -844,7 +834,7 @@ https://www.bilibili.com/video/BV17f4y1G7JU?p=1
 
 ### 9.2 数学公式
 
-**FeelIt** 基于 [$ \KaTeX $](https://katex.org/) 提供数学公式的支持.
+基于 [$ \KaTeX $](https://katex.org/) 提供数学公式的支持.
 
 在你的 [网站配置](../theme-documentation-basics#site-configuration) 中的 `[params.math]` 下面设置属性 `enable = true`,
 并在文章的前置参数中设置属性 `math: true`来启用数学公式的自动渲染.
@@ -882,7 +872,7 @@ $ c = \pm\sqrt{a^2 + b^2} $ 和 \\( f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^
 $ c = \pm\sqrt{a^2 + b^2} $ 和 \\( f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\)
 
 {{< admonition tip >}}
-你可以在 [网站配置](../theme-documentation-basics#site-configuration) 中自定义公式块和行内公式的分割符.
+可以在**confit.toml**中自定义公式块和行内公式的分割符.
 {{< /admonition >}}
 
 #### 9.2.3 Copy-tex
@@ -891,7 +881,7 @@ $ c = \pm\sqrt{a^2 + b^2} $ 和 \\( f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^
 
 通过这个扩展, 在选择并复制 $ \KaTeX $ 渲染的公式时, 会将其 $ \LaTeX $ 源代码复制到剪贴板.
 
-在你的 [网站配置](../theme-documentation-basics#site-configuration) 中的 `[params.math]` 下面设置属性 `copyTex = true` 来启用 Copy-tex.
+在**confit.toml**中的 `[params.math]` 下面设置属性 `copyTex = true` 来启用 Copy-tex.
 
 选择并复制上一节中渲染的公式, 可以发现复制的内容为 LaTeX 源代码.
 
@@ -1084,8 +1074,6 @@ public class HelloWorld {
 
 ## 11 script
 
-{{< version 0.2.8 >}}
-
 `script` shortcode 用来在你的文章中插入 **:(fab fa-js fa-fw): Javascript** 脚本.
 
 {{< admonition >}}
@@ -1097,24 +1085,21 @@ public class HelloWorld {
 
 ```markdown
 {{</* script */>}}
-console.log('Hello FeelIt!');
+console.log('Hello imisu!');
 {{</* /script */>}}
 ```
 
 你可以在开发者工具的控制台中看到输出.
 
 {{< script >}}
-console.log('Hello FeelIt!');
+console.log('Hello imisu!');
 {{< /script >}}
 
 ## 12 oEmbed
 
-{{< version 1.0.1 changed >}}
-
 oEmbed endpoints allow you to get embed HTML and basic metadata for pages, posts, and videos in order to display them in another website or app. The oEmbed endpoints require either an App Access Token or Client Access Token.
 
 ### 12.1 oEmbed Facebook
-{{< version 1.0.1 >}}
 
 **a. oEmbed Facebook Pages**
 
@@ -1182,8 +1167,6 @@ https://www.facebook.com/video.php?v={video-id}
 ```
 
 ### 12.2 oEmbed Instagram
-{{< version 1.0.0 >}}
-
 **a. oEmbed Instagram Post**
 
 Sample input of Instagram Post
@@ -1209,7 +1192,6 @@ Sample output of Instagram TV
 {{< oembed "ig" "tv" "BkQUbR8h1sp" "hidecaption" >}}
 
 ### 12.3 oEmbed Twitter
-{{< version 1.0.1 >}}
 
 Sample input of 'oembed tweet'
 
