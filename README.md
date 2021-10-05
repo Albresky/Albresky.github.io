@@ -1,11 +1,13 @@
 # Readme
 # 2021/10/05 20:20
+## Changes
+The "/public" folder has been pushed to the gh-pages branch.
 ## Update
  - figured out what 'mapbox' is and fixed it.
  - added the comment system(test passed).
  - completed almost 80 percent of the website build.
 ## Bugs
-not found yet, except for those that haven't been solved.
+Not found yet, except for those that haven't been solved.
 # 2021/10/02 16:30
 ## Update
  - added comment system(not tested yet).
