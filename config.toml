@@ -735,8 +735,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   [params.social]
     GitHub = "/Albresky"
     Linkedin = ""
-    Twitter = ""
-    Instagram = ""
+    Twitter = "AlbrechtCarlosS"
+    Instagram = "__imisu"
     Facebook = ""
     Telegram = ""
     Medium = ""
@@ -776,7 +776,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = ""
+    Zhihu = "stars7-16"
     Douban = ""
     Angellist = ""
     Slidershare = ""
@@ -798,9 +798,6 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     Resume = "" #goo.gl id
     xda = ""
     RSS = true
-    [params.social.Mastodon]
-      id = "@xxxx"
-      prefix = "https://mastodon.technology/"
       
   # TypeIt config
   # TypeIt 配置
