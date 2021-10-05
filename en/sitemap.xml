@@ -11,8 +11,16 @@
                     hreflang="en"
                     href="/en/about/"
                     /></url><url>
-            <loc>/en/beta-test/</loc><lastmod>2021-09-30T15:40:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/en/categories/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/beta-test/</loc><lastmod>2021-10-05T14:08:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="/beta-test/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="/en/beta-test/"
+                    /></url><url>
+            <loc>/en/categories/</loc><lastmod>2021-10-05T14:08:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/categories/"
@@ -21,7 +29,7 @@
                     hreflang="en"
                     href="/en/categories/"
                     /></url><url>
-            <loc>/en/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/</loc><lastmod>2021-10-05T14:08:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/"
@@ -30,7 +38,7 @@
                     hreflang="en"
                     href="/en/"
                     /></url><url>
-            <loc>/en/posts/</loc><lastmod>2021-09-30T15:40:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/posts/</loc><lastmod>2021-10-05T14:08:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/posts/"
@@ -39,15 +47,8 @@
                     hreflang="en"
                     href="/en/posts/"
                     /></url><url>
-            <loc>/en/categories/website-maintain/</loc><lastmod>2021-09-30T15:40:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="/categories/website-maintain/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="/en/categories/website-maintain/"
-                    /></url><url>
+            <loc>/en/categories/website-maintain/</loc><lastmod>2021-10-05T14:08:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/first-post/</loc><lastmod>2021-09-29T18:58:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/en/categories/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"

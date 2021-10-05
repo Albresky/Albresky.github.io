@@ -9,7 +9,13 @@
     <link>/en/beta-test/</link>
     <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/en/beta-test/</guid>
     <description><![CDATA[Abstract This is the second version(Beta01) of my Blog Website design. I&rsquo;ve fixed some issues and bugs as following:
-Add some fuctions like:  the the writers&rsquo;s avatar the mapbox(unfinished) Cookies permission request page(Bugs: ain&rsquo;t appear sometimes) Copyright at the homepage Dynamic title added emoji system, but not tested yet.  Bugs:  contents won&rsquo;t display at bottle of the homepage, such as &ldquo;C 2021&rdquo; things didn&rsquo;t sync to Github, such as the posts are invisible at homepage, titles are still default on the &ldquo;Posts&rdquo; page when the web is released.]]></description>
+Add some fuctions like:  the the writers&rsquo;s avatar the mapbox(unfinished 😅) Cookies permission request page~~(Bugs: ain&rsquo;t appear sometimes)~~ Copyright at the homepage Dynamic title(changed to dynamic subtitle) added emoji systembut not tested yet.  Bugs:  contents won&rsquo;t display at bottle of the homepage, such as &ldquo;C 2021&rdquo; things didn&rsquo;t sync to Github, such as the posts are invisible at homepage, titles are still default on the &ldquo;Posts&rdquo; page when the web is released.]]></description>
+</item>
+<item>
+    <title>First Post</title>
+    <link>/en/first-post/</link>
+    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/en/first-post/</guid>
+    <description><![CDATA[introduction First test  😀  ]]></description>
 </item>
 </channel>
 </rss>

@@ -11,16 +11,15 @@
                     hreflang="zh-cn"
                     href="/about/"
                     /></url><url>
-            <loc>/categories/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/beta-test/</loc><lastmod>2021-09-30T15:40:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="/en/categories/"
+                        href="/en/beta-test/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="/categories/"
+                    href="/beta-test/"
                     /></url><url>
-            <loc>/first-post/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -30,7 +29,7 @@
                     hreflang="zh-cn"
                     href="/"
                     /></url><url>
-            <loc>/posts/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/posts/</loc><lastmod>2021-09-30T15:40:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/posts/"
@@ -39,14 +38,14 @@
                     hreflang="zh-cn"
                     href="/posts/"
                     /></url><url>
-            <loc>/categories/website-maintain/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/categories/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="/en/categories/website-maintain/"
+                        href="/en/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="/categories/website-maintain/"
+                    href="/categories/"
                     /></url><url>
             <loc>/tags/content/_index.fr/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/tags/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link

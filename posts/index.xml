@@ -4,11 +4,11 @@
         <link>/posts/</link>
         <description>所有文章 | imisu</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
-            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>First Post</title>
-    <link>/first-post/</link>
-    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/first-post/</guid>
-    <description><![CDATA[introduction First test  😀  ]]></description>
+            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Beta Test</title>
+    <link>/beta-test/</link>
+    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/beta-test/</guid>
+    <description><![CDATA[摘要 这是博客网页的第一版设计. 如下是一些Bug和已修复的问题： 增加了一些功能: 作者的头像 mapbox（我也不知道有什么用 😅） Cookies 请求页面~~(]]></description>
 </item>
 </channel>
 </rss>
