@@ -186,7 +186,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # 主页显示头像的 URL
           avatarURL = "/images/avatar.webp"
           # 主页显示的网站标题 (支持 HTML 格式)
-          title = "imisu | I Miss U"
+          title = "imisu"
           # 主页显示的网站副标题 (支持 HTML 格式)
           subtitle = "一个简洁、优雅，且高效的博客"
           # 是否为副标题显示打字机动画
