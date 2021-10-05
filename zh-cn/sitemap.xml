@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/categories/</loc><lastmod>2021-10-05T19:18:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/categories/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/categories/"
@@ -11,7 +11,7 @@
                     hreflang="zh-cn"
                     href="/categories/"
                     /></url><url>
-            <loc>/</loc><lastmod>2021-10-05T20:45:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/"
@@ -20,7 +20,7 @@
                     hreflang="zh-cn"
                     href="/"
                     /></url><url>
-            <loc>/posts/</loc><lastmod>2021-10-05T20:45:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/posts/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/posts/"
@@ -31,6 +31,15 @@
                     /></url><url>
             <loc>/categories/%E7%94%B5%E5%BD%B1/</loc><lastmod>2021-10-05T19:18:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/the-matrix-resurrections/</loc><lastmod>2021-10-05T19:18:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/web-maintain/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="/en/categories/web-maintain/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="/categories/web-maintain/"
+                    /></url><url>
             <loc>/fuction-preview/</loc><lastmod>2021-10-05T20:45:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/about/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -41,7 +50,7 @@
                     hreflang="zh-cn"
                     href="/about/"
                     /></url><url>
-            <loc>/beta-test/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/beta-test/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/beta-test/"
@@ -50,16 +59,7 @@
                     hreflang="zh-cn"
                     href="/beta-test/"
                     /></url><url>
-            <loc>/categories/web-maintain/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="/en/categories/web-maintain/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="/categories/web-maintain/"
-                    /></url><url>
-            <loc>/first-post/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/first-post/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/first-post/"
