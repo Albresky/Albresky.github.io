@@ -4,9 +4,15 @@
         <link>/</link>
         <description>关于 imisu</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
-            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</lastBuildDate>
+            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 05 Oct 2021 15:34:16 &#43;0800</lastBuildDate>
             <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Index</title>
+    <link>/the-matrix-resurrections/</link>
+    <pubDate>Tue, 05 Oct 2021 15:34:16 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/the-matrix-resurrections/</guid>
+    <description><![CDATA[<p>Demo - <strong>黑客帝国4：矩阵重生</strong> 预告</p>]]></description>
+</item>
+<item>
     <title>Beta测试</title>
     <link>/beta-test/</link>
     <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/beta-test/</guid>
