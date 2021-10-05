@@ -3,7 +3,7 @@
 ## Update
  - figured out what 'mapbox' is and fixed it.
  - added the comment system(test passed).
- - completed almost 80 persent of the website build.
+ - completed almost 80 percent of the website build.
 ## Bugs
 not found yet, except for those that haven't been solved.
 # 2021/10/02 16:30
