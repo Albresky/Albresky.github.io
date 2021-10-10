@@ -2,7 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>/categories/</loc><lastmod>2021-10-08T17:33:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/tags/androidkiller/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/categories/"
@@ -11,7 +12,7 @@
                     hreflang="zh-cn"
                     href="/categories/"
                     /></url><url>
-            <loc>/</loc><lastmod>2021-10-08T17:33:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/"
@@ -20,7 +21,8 @@
                     hreflang="zh-cn"
                     href="/"
                     /></url><url>
-            <loc>/posts/</loc><lastmod>2021-10-08T17:33:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/tags/jeb/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/posts/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/posts/"
@@ -29,7 +31,7 @@
                     hreflang="zh-cn"
                     href="/posts/"
                     /></url><url>
-            <loc>/tags/</loc><lastmod>2021-10-08T17:33:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/tags/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/tags/"
@@ -38,6 +40,9 @@
                     hreflang="zh-cn"
                     href="/tags/"
                     /></url><url>
+            <loc>/bgk-decode/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/%E5%AE%89%E5%8D%93%E9%80%86%E5%90%91/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/%E5%AE%89%E5%8D%93%E9%80%86%E5%90%91/</loc><lastmod>2021-10-11T01:10:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/tags/windows-11/</loc><lastmod>2021-10-08T17:33:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/win11/</loc><lastmod>2021-10-08T17:33:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>/categories/%E7%B3%BB%E7%BB%9F/</loc><lastmod>2021-10-08T17:33:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -80,9 +85,10 @@
                     hreflang="zh-cn"
                     href="/first-post/"
                     /></url><url>
-            <loc>/tags/content/_index.fr/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/tags/installation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>/categories/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/tags/content/_index.fr/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>/tags/mt/np%E7%AE%A1%E7%90%86%E5%99%A8/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/installation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>/categories/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/categories/documentation/"
@@ -91,7 +97,7 @@
                     hreflang="zh-cn"
                     href="/categories/documentation/"
                     /></url><url>
-            <loc>/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="/en/documentation/"
@@ -100,4 +106,4 @@
                     hreflang="zh-cn"
                     href="/documentation/"
                     /></url><url>
-            <loc>/tags/configuration/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
+            <loc>/tags/configuration/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url></urlset>
