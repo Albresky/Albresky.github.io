@@ -1,4 +1,4 @@
-baseURL = "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/"
+baseURL = ""
 
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
