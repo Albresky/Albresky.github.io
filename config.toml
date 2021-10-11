@@ -26,7 +26,7 @@ enableGitInfo = true
 # 是否使用 emoji 代码
 enableEmoji = true
 # UA-PROPERTY_ID or G-MEASUREMENT_ID google analytics code
-googleAnalytics = ""
+googleAnalytics = "G-YCHP0MS259"
 
 ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstoken"]
 
@@ -837,7 +837,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
@@ -873,7 +873,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # 位于 "themes/FeelIt/assets/data/cdn/" 目录
     # 可以在你的项目下相同路径存放你自己的数据文件:
     # "assets/data/cdn/"
-   ###### data = "jsdelivr.yml"
+    data = "jsdelivr.yml"
    
   # Compatibility config
   # 兼容性设置
