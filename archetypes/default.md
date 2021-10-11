@@ -9,14 +9,14 @@ authorLink: ""
 description: ""
 resources:
 - name: "featured-image"
-  src: "featured-image.png"
+  src: ""
 - name: "featured-image-preview"
-  src: "featured-image-preview.png"
+  src: ""
 tags: []
 categories: []
 
-featuredImage: ""
-featuredImagePreview: ""
+featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/featured-image.png"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/featured-image-preview.png"
 
 hiddenFromHomePage: 
 featuredImagePreview: 

@@ -10,9 +10,9 @@ description: "imisu网站更新日志"
 
 resources:
 - name: "featured-image"
-  src: "featured-image.png"
+  src: ""
 - name: "featured-image-preview"
-  src: "featured-image-preview.png"
+  src: ""
 
 tags: ["WebsiteUpdateLog"]
 categories: ["Web-Maintain"]
@@ -20,8 +20,8 @@ categories: ["Web-Maintain"]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: ""
-featuredImagePreview: ""
+featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/Update-Log/featured-image.png"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/Update-Log/featured-image-preview.png"
 
 toc:
   enable: true

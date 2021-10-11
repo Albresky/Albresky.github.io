@@ -9,9 +9,12 @@ authorLink: ""
 description: ""
 resources:
 - name: "featured-image"
-  src: "preview-l.jpg"
+  src: ""
 - name: "featured-image-preview"
-  src: "preview-s.png"
+  src: ""
+
+featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/Fuction-preview/preview-l.jpg"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/Fuction-preview/preview-s.png"
 tags: []
 categories: ["Web-Maintain"]
 
