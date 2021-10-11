@@ -1,23 +1,42 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>imisu</title>
-        <link>/en/</link>
-        <description>About imisu</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
-            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</lastBuildDate>
-            <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Beta Test</title>
-    <link>/en/update-log/</link>
-    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/en/update-log/</guid>
-    <description><![CDATA[Abstract This is the second version(Beta01) of my Blog Website design. I&rsquo;ve fixed some issues and bugs as following:
-Add some fuctions like:  the the writers&rsquo;s avatar the mapbox(unfinished 😅) Cookies permission request page(Bugs: ain&rsquo;t appear sometimes) Copyright at the homepage Dynamic title(changed to dynamic subtitle) added emoji systembut not tested yet.  Bugs:  contents won&rsquo;t display at bottle of the homepage, such as &ldquo;C 2021&rdquo; things didn&rsquo;t sync to Github, such as the posts are invisible at homepage, titles are still default on the &ldquo;Posts&rdquo; page when the web is released.]]></description>
-</item>
-<item>
-    <title>First Post</title>
-    <link>/en/first-post/</link>
-    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/en/first-post/</guid>
-    <description><![CDATA[introduction First test  😀  ]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>imisu</title>
+    <link>/en/</link>
+    <description>Recent content on imisu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>albre02@outlook.com (Albresky)</managingEditor>
+    <webMaster>albre02@outlook.com (Albresky)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 30 Sep 2021 15:40:40 +0800</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About imisu</title>
+      <link>/en/about/</link>
+      <pubDate>Sat, 02 Oct 2021 16:41:27 +0800</pubDate>
+      <author>albre02@outlook.com (Albresky)</author>
+      <guid>/en/about/</guid>
+      <description>WarningSorry, this article has not been completely translated into English. Welcome to take the time to propose a translation by :(fas fa-code-branch fa-fw): making a PR to this project! Features Performance and SEO  :(fas fa-rocket fa-fw): Optimized for performance: [99]/[100] on mobile and [100]/[100] on desktop in Google PageSpeed Insights :(fab fa-searchengin fa-fw): Optimized SEO performance with a correct SEO SCHEMA based on JSON-LD :(fab fa-google fa-fw): Google Analytics supported :(far fa-chart-bar fa-fw): Fathom Analytics supported :(fas fa-chart-line fa-fw): GoatCounter Analytics supported :(fas fa-search fa-fw): Search engine verification supported (Google, Bind, Yandex and Baidu) :(fas fa-tachometer-alt fa-fw): CDN for third-party libraries supported :(fas fa-cloud-download-alt fa-fw): Automatically converted images with Lazy Load by lazysizes  Appearance and Layout  [:(fas fa-desktop):]/[:(fas fa-mobile):] Responsive layout [:(fas fa-sun):]/[:(fas fa-moon):] [Light]/[Dark] mode :(fas fa-layer-group fa-fw): Globally consistent design language :(fas fa-ellipsis-h fa-fw): Pagination supported :(far fa-list-alt fa-fw): Easy-to-use and self-expanding table of contents :(fas fa-language fa-fw): Multilanguage supported and i18n ready :(fab fa-css3-alt fa-fw): Beautiful CSS animation  Social and Comment Systems  :(far fa-user fa-fw): Gravatar supported by Gravatar :(fas fa-user-circle fa-fw): Local Avatar supported :(far fa-id-card fa-fw): Up to 64 social links supported :(fas fa-share-square fa-fw): Up to 28 share sites supported :(far fa-comment fa-fw): Disqus comment system supported by Disqus :(far fa-comment-dots fa-fw): Gitalk comment system supported by Gitalk :(far fa-comment-alt fa-fw): Valine comment system supported by Valine :(fas fa-comments fa-fw): Vssue comment system supported by Vssue :(far fa-comments fa-fw): Facebook comments system supported by Facebook :(fas fa-comment fa-fw): Telegram comments system supported by Comments :(fas fa-comment-dots fa-fw): Commento comment system supported by Commento :(fas fa-comment-alt fa-fw): Utterances comment system supported by Utterances  Extended Features  :(fas fa-search fa-fw): Search supported by Lunr.</description>
+    </item>
+    
+    <item>
+      <title>Beta Test</title>
+      <link>/en/update-log/</link>
+      <pubDate>Thu, 30 Sep 2021 15:40:40 +0800</pubDate>
+      <author>albre02@outlook.com (Albresky)</author>
+      <guid>/en/update-log/</guid>
+      <description>Abstract This is the second version(Beta01) of my Blog Website design. I&amp;rsquo;ve fixed some issues and bugs as following:
+Add some fuctions like:  the the writers&amp;rsquo;s avatar the mapbox(unfinished 😅) Cookies permission request page(Bugs: ain&amp;rsquo;t appear sometimes) Copyright at the homepage Dynamic title(changed to dynamic subtitle) added emoji systembut not tested yet.  Bugs:  contents won&amp;rsquo;t display at bottle of the homepage, such as &amp;ldquo;C 2021&amp;rdquo; things didn&amp;rsquo;t sync to Github, such as the posts are invisible at homepage, titles are still default on the &amp;ldquo;Posts&amp;rdquo; page when the web is released.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>/en/first-post/</link>
+      <pubDate>Wed, 29 Sep 2021 18:58:59 +0800</pubDate>
+      <author>albre02@outlook.com (Albresky)</author>
+      <guid>/en/first-post/</guid>
+      <description>introduction First test  😀  </description>
+    </item>
+    
+  </channel>
 </rss>
