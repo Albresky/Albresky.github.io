@@ -52,7 +52,7 @@ lightgallery: true
 但是当我安装好最新版，发现它已经被原配程序媛小姐姐更新得**面目全非**，完全感觉不到它当年
 **清新儒雅**、**简洁实用**的风范:
 
-{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/bgk-decode/bgk_new.jpg" caption="面目全非的你" title="面目全非的你">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/bgk_new.jpg" caption="面目全非的你" title="面目全非的你">}}
 
 ...
 
