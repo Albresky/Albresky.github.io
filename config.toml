@@ -26,7 +26,7 @@ enableGitInfo = true
 # 是否使用 emoji 代码
 enableEmoji = true
 # UA-PROPERTY_ID or G-MEASUREMENT_ID google analytics code
-googleAnalytics = "G-YCHP0MS259"
+googleAnalytics = ""
 
 ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstoken"]
 
