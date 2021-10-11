@@ -11,11 +11,10 @@
     <description><![CDATA[<p>imisu | <strong>功能预览 Function Preview</strong></p>]]></description>
 </item>
 <item>
-    <title>Beta测试</title>
-    <link>/beta-test/</link>
-    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/beta-test/</guid>
-    <description><![CDATA[<h1 id="摘要">摘要</h1>
-<p>这是博客网页的第一版设计. 如下是一些Bug和已修复的问题：</p>]]></description>
+    <title>imisu网站更新日志</title>
+    <link>/update-log/</link>
+    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/update-log/</guid>
+    <description><![CDATA[<p>更新了一些功能，修复了许多Bug。</p>]]></description>
 </item>
 <item>
     <title>第一篇文章</title>
