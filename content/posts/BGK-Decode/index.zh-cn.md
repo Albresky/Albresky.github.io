@@ -54,7 +54,9 @@ lightgallery: true
 
 {{< image src="bgk_new.jpg" caption="面目全非的你" title="面目全非的你">}}
 
-...（**凌晨了**）
+...
+
+（**凌晨了**）
 
  **此处省略两百字**
 

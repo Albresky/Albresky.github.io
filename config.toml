@@ -649,9 +649,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        enable = true
+        appId = "isCN3G6Fxga9Ud86onbltnaB-gzGzoHsz"
+        appKey = "ovKaSRUTyTGJbNQTqB3PKzgc"
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -660,8 +660,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = false
-        serverURLs = "https://leancloud.hugoloveit.com"
+        enableQQ = true
+        serverURLs = "https://iscn3g6f.lc-cn-n1-shared.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory

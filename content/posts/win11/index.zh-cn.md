@@ -44,7 +44,7 @@ Windows 11就是大版本迭代更新都修复不了重启电脑Desktop图标错
  - 再看：
   {{< image src="rightmenu.webp" caption="右击菜单" title="右击菜单">}}
   作为一个天天都要右击的男孩，怎么能忍受如此shabby！！的右击菜单，没有了程序猿常用的一键vscode，一键git bash，一键刷新！！
-  一下才是必备右击菜单，你说是不是！！
+  以下才是必备右击菜单，你说是不是！！
     {{< image src="rightmenu_old.webp" caption="右击菜单old" title="右击菜单old">}}
 
 ## 3 如何学会**滚**
