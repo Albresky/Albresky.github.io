@@ -49,7 +49,7 @@ license: ""
 {{< admonition type=abstract title="2021-10-05更新日志" open=true >}}
 ## 更新:
  - 作者的头像
- - mapbox（~~我也不知道有什么用 :sweat_smile: ~~）
+ - mapbox（~~我也不知道有什么用 ~~:sweat_smile:）(-->网页中可以显示地图)
  - Cookies 请求页面(~~Bugs: ain't appear sometimes~~)
  - 页脚的版权标识
  - ~~动态标题~~(已改为动态副标题)
