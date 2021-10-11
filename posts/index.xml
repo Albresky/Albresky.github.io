@@ -40,5 +40,11 @@
     <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/first-post/</guid>
     <description><![CDATA[介绍 第一次测试 😀]]></description>
 </item>
+<item>
+    <title>Offline</title>
+    <link>/offline/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/offline/</guid>
+    <description><![CDATA[]]></description>
+</item>
 </channel>
 </rss>
