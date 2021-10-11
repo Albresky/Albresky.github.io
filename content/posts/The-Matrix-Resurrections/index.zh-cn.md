@@ -9,14 +9,14 @@ authorLink: ""
 description: "Demo - 黑客帝国4：矩阵重生 预告"
 resources:
 - name: "featured-image"
-  src: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/The-Matrix-Resurrections/featured-image.png"
+  src: "[featured-image.png]"
 - name: "featured-image-preview"
-  src: "[featured-image-preview.png](https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/The-Matrix-Resurrections/featured-image-preview.png)"
+  src: "[featured-image-preview.png]"
 tags: []
 categories: ["电影"]
 
-featuredImage: ""
-featuredImagePreview: ""
+#featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/The-Matrix-Resurrections/featured-image.png"
+#featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/The-Matrix-Resurrections/featured-image-preview.png"
 
 toc:
   enable: true
