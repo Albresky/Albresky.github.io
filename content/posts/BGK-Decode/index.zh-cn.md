@@ -9,14 +9,14 @@ authorLink: ""
 description: ""
 resources:
 - name: "featured-image"
-  src: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/featured-image.jpg"
+  src: ""
 - name: "featured-image-preview"
-  src: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/featured-image-preview.png"
+  src: ""
 tags: ["安卓逆向","JEB","AndroidKiller","MT/NP管理器"]
 categories: ["安卓逆向"]
 
-featuredImage: ""
-featuredImagePreview: ""
+featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/featured-image.jpg"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/featured-image-preview.png"
 
 toc:
   enable: true
