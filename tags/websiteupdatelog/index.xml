@@ -8,7 +8,9 @@
     <title>imisu网站更新日志</title>
     <link>/update-log/</link>
     <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/update-log/</guid>
-    <description><![CDATA[<p>更新了一些功能，修复了许多Bug。</p>]]></description>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/https:/cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/Update-Log/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>更新了一些功能，修复了许多Bug。</p>]]></description>
 </item>
 </channel>
 </rss>
