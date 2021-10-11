@@ -2,94 +2,94 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/about/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/about/</loc><lastmod>2021-10-05T14:41:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/about/"
+                        href="/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/about/"
+                    href="/en/about/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/update-log/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/update-log/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/update-log/"
+                        href="/update-log/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/update-log/"
+                    href="/en/update-log/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/categories/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/categories/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/categories/"
+                        href="/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/categories/"
+                    href="/en/categories/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/"
+                        href="/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/"
+                    href="/en/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/posts/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/posts/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/posts/"
+                        href="/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/posts/"
+                    href="/en/posts/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/categories/web-maintain/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/categories/web-maintain/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/categories/web-maintain/"
+                        href="/categories/web-maintain/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/categories/web-maintain/"
+                    href="/en/categories/web-maintain/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/first-post/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>/en/first-post/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/first-post/"
+                        href="/first-post/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/first-post/"
+                    href="/en/first-post/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/categories/website-maintain/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/categories/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>/en/categories/website-maintain/</loc><lastmod>2021-10-05T20:48:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>/en/categories/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/categories/documentation/"
+                        href="/categories/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/categories/documentation/"
+                    href="/en/categories/documentation/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>/en/documentation/</loc><lastmod>2021-10-03T17:38:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/documentation/"
+                        href="/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/documentation/"
+                    href="/en/documentation/"
                     /></url><url>
-            <loc>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/tags/"
+                        href="/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/en/tags/"
+                    href="/en/tags/"
                     /></url></urlset>

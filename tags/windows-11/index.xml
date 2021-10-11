@@ -1,13 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Windows 11 - 标签 - imisu</title>
-        <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/tags/windows-11/</link>
+        <link>/tags/windows-11/</link>
         <description>Windows 11 - 标签 - imisu</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
-            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 08 Oct 2021 16:14:08 &#43;0800</lastBuildDate><atom:link href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/tags/windows-11/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 08 Oct 2021 16:14:08 &#43;0800</lastBuildDate><atom:link href="/tags/windows-11/" rel="self" type="application/rss+xml" /><item>
     <title>如何学会滚</title>
-    <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/win11/</link>
-    <pubDate>Fri, 08 Oct 2021 16:14:08 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/win11/</guid>
+    <link>/win11/</link>
+    <pubDate>Fri, 08 Oct 2021 16:14:08 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/win11/</guid>
     <description><![CDATA[<p>快速水一篇~~如何从Windows 11<strong>滚回</strong>到Windows 10 🤡</p>]]></description>
 </item>
 </channel>

@@ -1,51 +1,51 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>imisu</title>
-        <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/</link>
+        <link>/</link>
         <description>关于 imisu</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
             <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 11 Oct 2021 20:49:44 &#43;0800</lastBuildDate>
-            <atom:link href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Offline</title>
-    <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/offline/</link>
-    <pubDate>Mon, 11 Oct 2021 20:49:44 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/offline/</guid>
+    <link>/offline/</link>
+    <pubDate>Mon, 11 Oct 2021 20:49:44 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/offline/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>《不挂科APP》基于旧版的精简与去更新</title>
-    <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/bgk-decode/</link>
-    <pubDate>Sun, 10 Oct 2021 22:05:30 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/bgk-decode/</guid>
+    <link>/bgk-decode/</link>
+    <pubDate>Sun, 10 Oct 2021 22:05:30 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/bgk-decode/</guid>
     <description><![CDATA[<p><strong>不挂科APP</strong>基于旧版的精简与去更新</p>]]></description>
 </item>
 <item>
     <title>如何学会滚</title>
-    <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/win11/</link>
-    <pubDate>Fri, 08 Oct 2021 16:14:08 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/win11/</guid>
+    <link>/win11/</link>
+    <pubDate>Fri, 08 Oct 2021 16:14:08 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/win11/</guid>
     <description><![CDATA[<p>快速水一篇~~如何从Windows 11<strong>滚回</strong>到Windows 10 🤡</p>]]></description>
 </item>
 <item>
     <title>黑客帝国4：矩阵重生</title>
-    <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/the-matrix-resurrections/</link>
-    <pubDate>Tue, 05 Oct 2021 15:34:16 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/the-matrix-resurrections/</guid>
+    <link>/the-matrix-resurrections/</link>
+    <pubDate>Tue, 05 Oct 2021 15:34:16 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/the-matrix-resurrections/</guid>
     <description><![CDATA[<p>Demo - <strong>黑客帝国4：矩阵重生</strong> 预告</p>]]></description>
 </item>
 <item>
     <title>功能预览</title>
-    <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/fuction-preview/</link>
-    <pubDate>Mon, 04 Oct 2021 17:20:00 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/fuction-preview/</guid>
+    <link>/fuction-preview/</link>
+    <pubDate>Mon, 04 Oct 2021 17:20:00 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/fuction-preview/</guid>
     <description><![CDATA[<p>imisu | <strong>功能预览 Function Preview</strong></p>]]></description>
 </item>
 <item>
     <title>imisu网站更新日志</title>
-    <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/update-log/</link>
-    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/update-log/</guid>
+    <link>/update-log/</link>
+    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/update-log/</guid>
     <description><![CDATA[<p>更新了一些功能，修复了许多Bug。</p>]]></description>
 </item>
 <item>
     <title>第一篇文章</title>
-    <link>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/first-post/</link>
-    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/first-post/</guid>
+    <link>/first-post/</link>
+    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/first-post/</guid>
     <description><![CDATA[介绍 第一次测试 😀]]></description>
 </item>
 </channel>
