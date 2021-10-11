@@ -56,14 +56,14 @@
 ### 3.1 原旧版（V1.2.2）信息
  - 原样式： 
 如下图所示，原旧版APP虽能安装，但总频繁地弹出更新提示，反复想让用户更新到最新的臃肿版本。
-{{< image src="bgk_ori_update.jpg" caption="频繁的更新提示" title="频繁的更新提示">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/bgk_ori_update.jpg" caption="频繁的更新提示" title="频繁的更新提示">}}
 
 转到设置，即使不检查更新，也会显示一个小红点，不仅看着不舒服，也暗示着随时可能弹出地更新窗口。
-{{< image src="settings_red.jpg" caption="设置更新小红点" title="设置更新小红点">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/settings_red.jpg" caption="设置更新小红点" title="设置更新小红点">}}
 
  - apk信息：
 使用MT/NP管理器查看apk版本信息如下：
-{{< image src="bgk_origin.png" caption="apk信息" title="apk信息">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/bgk_origin.png" caption="apk信息" title="apk信息">}}
 
 ### 3.2 去除更新
  - JEB反编译：
@@ -73,21 +73,21 @@
   对比新旧版本信息，打开NP管理器修改Manifest中的版本号和版本名称：
 
    - 原版本：
-{{< image src="version_ori.png" caption="原版本" title="原版本">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/version_ori.png" caption="原版本" title="原版本">}}
 
    - 新版本（修改图忘记截屏了）：
 
 将版本名改为了imisu@9.9.9，版本号与最新版app同步（2213）
 
-{{< image src="version_new.png" caption="新版本" title="新版本">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/version_new.png" caption="新版本" title="新版本">}}
 
  - 效果如下：
    - 版本信息：
 
-{{< image src="bgk_old_about.png" caption="版本" title="版本">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/bgk_old_about.png" caption="版本" title="版本">}}
 
    - 小红点已消除，更新弹窗不会再弹出，手动检查版本也提示“已为最新版”
-{{< image src="bgk-old_check.png" caption="检查更新" title="检查更新">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/bgk-old_check.png" caption="检查更新" title="检查更新">}}
 
 ### 3.3 去除多余推广
 如图所示，”我的“界面有几项推广我们都用不到，可以去除这几项。
@@ -96,25 +96,25 @@
 
 打开MT管理器，找到resources.arsc：
 
-{{< image src="arsc.png" caption="resources.arsc" title="resources.arsc">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/arsc.png" caption="resources.arsc" title="resources.arsc">}}
 
 ，使用Arsc编辑器打开resources.arsc，在其中中搜索字符串常量”新人礼包“：
 
-{{< image src="search.png" caption="新人礼包" title="新人礼包">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/search.png" caption="新人礼包" title="新人礼包">}}
 
 搜索结果中复制资源ID：
 
-{{< image src="id.png" caption="复制ID" title="复制ID">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/id.png" caption="复制ID" title="复制ID">}}
 
 返回apk根目录，在XML中搜索资源ID（尝试通过修改页面布局来隐藏推广横幅），
 
-{{< image src="searchRes.png" caption="搜索结果" title="搜索结果">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/searchRes.png" caption="搜索结果" title="搜索结果">}}
 
 反编译其对应的xml，在xml中搜索之前的资源ID：
 
 定位如下：
 
-{{< image src="ID_xml.png" caption="资源ID代码定位" title="资源ID代码定位">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/ID_xml.png" caption="资源ID代码定位" title="资源ID代码定位">}}
 
 删除图中框选部分即可。
 
