@@ -652,15 +652,15 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         enable = true
         appId = "isCN3G6Fxga9Ud86onbltnaB-gzGzoHsz"
         appKey = "ovKaSRUTyTGJbNQTqB3PKzgc"
-        placeholder = ""
-        avatar = "mp"
+        placeholder = "说点什么吧..."
+        avatar = "mm"
         meta= ""
         pageSize = 10
         lang = ""
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = true
+        enableQQ = false
         serverURLs = "https://iscn3g6f.lc-cn-n1-shared.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
