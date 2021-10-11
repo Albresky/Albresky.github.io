@@ -393,7 +393,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["images/favicon.ico"]
+  images = [""]
   # whether to enable CSS and JS source mapping
   SourceMap = false
   description = "这里是 imisu"
@@ -837,7 +837,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = true
+    enable = false
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
