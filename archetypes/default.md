@@ -9,14 +9,17 @@ authorLink: ""
 description: ""
 resources:
 - name: "featured-image"
-  src: "featured-image.webp"
+  src: "featured-image.png"
 - name: "featured-image-preview"
-  src: "featured-image-preview.webp"
+  src: "featured-image-preview.png"
 tags: []
 categories: []
 
 featuredImage: ""
 featuredImagePreview: ""
+
+hiddenFromHomePage: 
+featuredImagePreview: 
 
 toc:
   enable: true
@@ -24,6 +27,6 @@ math:
   enable: true
 lightgallery: true
 ---
-Demo - **黑客帝国4：矩阵重生** 预告
+
 <!--more-->
 
