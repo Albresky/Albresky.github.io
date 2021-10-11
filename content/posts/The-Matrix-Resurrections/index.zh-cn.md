@@ -9,9 +9,9 @@ authorLink: ""
 description: "Demo - 黑客帝国4：矩阵重生 预告"
 resources:
 - name: "featured-image"
-  src: "featured-image.png"
+  src: "https://cdn.jsdelivr.net/gh/Albresky/Albresky@master/content/posts/The-Matrix-Resurrections/featured-image.png"
 - name: "featured-image-preview"
-  src: "featured-image-preview.png"
+  src: "[featured-image-preview.png](https://cdn.jsdelivr.net/gh/Albresky/Albresky@master/content/posts/The-Matrix-Resurrections/featured-image-preview.png)"
 tags: []
 categories: ["电影"]
 
