@@ -2,6 +2,12 @@
 
 **不挂科APP**基于旧版的精简与去更新
 <!--more-->
+## 微信公众号
+
+本文剩余部分已更新补全，添加了fiddler、charles、等工具的使用，详情请关注公众号：
+
+{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
+
 # 前言
 {{< admonition type=info title="说在前面" open=true >}}　　
 妈的，工作到一半同学发来了综评表，德育分非常低，导员评的比我自评的都低（明天去找他:cry:）。一等奖没了。
@@ -131,5 +137,8 @@
    - {{< link "https://wwi.lanzoui.com/i2KNOv738ji" "蓝奏云" "点击跳转到蓝奏云" >}}
 
    - {{< link "https://pan.baidu.com/s/12q2R2qL7nHP-dOHOV5l0qQ" "百度云盘（解压密码issk）" "点击跳转到百度网盘" >}}
+
+
+
 
 
