@@ -98,7 +98,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/Albresky/Albresky.github.io"
+        url = "Albresky"
         title = "GitHub"
         weight = 6
     [languages.zh-cn.params]
