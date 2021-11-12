@@ -2,7 +2,7 @@
 title: "《不挂科APP》基于旧版的精简与去更新"
 subtitle: ""
 date: 2021-10-10T22:05:30+08:00
-lastmod: 2021-10-21T1:15:26+08:00
+lastmod: 2021-11-12T1:15:26+08:00
 draft: false
 author: "Albresky"
 authorLink: ""
@@ -158,9 +158,9 @@ lightgallery: true
 
  - 下载链接：
 
-   - {{< link "https://wwi.lanzoui.com/i2KNOv738ji" "蓝奏云" "点击跳转到蓝奏云" >}}
+   - {{< link "https://wwi.lanzoui.com/ieWvswf58fa" "2021/11/12更新-蓝奏云【解压密码：imisu】" "点击跳转到蓝奏云" >}}
 
-   - {{< link "https://pan.baidu.com/s/12q2R2qL7nHP-dOHOV5l0qQ" "百度云盘（解压密码issk）" "点击跳转到百度网盘" >}}
+   - {{< link "https://pan.baidu.com/s/12q2R2qL7nHP-dOHOV5l0qQ" "百度云盘【解压密码：issk】" "点击跳转到百度网盘" >}}
 
 
 
