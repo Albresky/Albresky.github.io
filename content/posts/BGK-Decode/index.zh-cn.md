@@ -28,7 +28,7 @@ lightgallery: true
 <!--more-->
 ## 微信公众号
 
-本文剩余部分已更新补全，添加了fiddler、charles等工具的使用，详情请关注公众号：
+<span style="color:red;">本文剩余部分已更新补全，添加了fiddler、charles等工具的使用，详情请关注公众号：</span>
 
 {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
