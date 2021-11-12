@@ -4,7 +4,7 @@
 <!--more-->
 ## 微信公众号
 
-本文剩余部分已更新补全，添加了fiddler、charles、等工具的使用，详情请关注公众号：
+本文剩余部分已更新补全，添加了fiddler、charles等工具的使用，详情请关注公众号：
 
 {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
@@ -134,9 +134,9 @@
 
  - 下载链接：
 
-   - {{< link "https://wwi.lanzoui.com/i2KNOv738ji" "蓝奏云" "点击跳转到蓝奏云" >}}
+   - {{< link "https://wwi.lanzoui.com/ieWvswf58fa" "2021/11/12更新-蓝奏云【解压密码：imisu】" "点击跳转到蓝奏云" >}}
 
-   - {{< link "https://pan.baidu.com/s/12q2R2qL7nHP-dOHOV5l0qQ" "百度云盘（解压密码issk）" "点击跳转到百度网盘" >}}
+   - {{< link "https://pan.baidu.com/s/12q2R2qL7nHP-dOHOV5l0qQ" "百度云盘【解压密码：issk】" "点击跳转到百度网盘" >}}
 
 
 
