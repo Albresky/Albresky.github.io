@@ -11,7 +11,7 @@
                     hreflang="en"
                     href="/en/about/"
                     /></url><url>
-            <loc>/en/update-log/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>/en/update-log/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/update-log/"
@@ -20,7 +20,7 @@
                     hreflang="en"
                     href="/en/update-log/"
                     /></url><url>
-            <loc>/en/categories/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>/en/categories/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/categories/"
@@ -29,7 +29,7 @@
                     hreflang="en"
                     href="/en/categories/"
                     /></url><url>
-            <loc>/en/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>/en/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/"
@@ -38,7 +38,7 @@
                     hreflang="en"
                     href="/en/"
                     /></url><url>
-            <loc>/en/posts/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>/en/posts/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/posts/"
@@ -47,7 +47,7 @@
                     hreflang="en"
                     href="/en/posts/"
                     /></url><url>
-            <loc>/en/categories/web-maintain/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>/en/categories/web-maintain/</loc><lastmod>2021-10-11T19:19:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="/categories/web-maintain/"

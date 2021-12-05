@@ -134,11 +134,6 @@
 
  - 下载链接：
 
-   - {{< link "https://wwi.lanzoui.com/ieWvswf58fa" "2021/11/12更新-蓝奏云【解压密码：imisu】" "点击跳转到蓝奏云" >}}
+   - {{< link "https://www.aliyundrive.com/s/FCCwoW6cZ25" "请将文件后缀改为.apk后再安装！！！-2021/11/12更新-阿里云盘【解压密码：misu】" "点击跳转到阿里云盘" >}}
 
    - {{< link "https://pan.baidu.com/s/12q2R2qL7nHP-dOHOV5l0qQ" "百度云盘【解压密码：issk】" "点击跳转到百度网盘" >}}
-
-
-
-
-
