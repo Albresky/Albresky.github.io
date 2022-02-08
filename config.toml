@@ -186,7 +186,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
           # 主页显示头像的 URL
-          avatarURL = "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/static/images/avatar.webp"
+          avatarURL = "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/static/images/avatar.png"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "imisu"
           # 主页显示的网站副标题 (支持 HTML 格式)
@@ -357,7 +357,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/avatar.webp"
+          avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
           title = "imisu | I Miss U"
           # subtitle shown in home page (HTML format is supported)
@@ -731,13 +731,13 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # 出版者信息
       [params.page.seo.publisher]
         name = "xxxx"
-        logoUrl = "/images/avatar.webp"    
+        logoUrl = "/images/avatar.png"    
         
 # 主页的社交信息设置
   [params.social]
     GitHub = "/Albresky"
     Linkedin = ""
-    Twitter = "Rocky"
+    Twitter = "AlbrechtCarlosS"
     Instagram = "__imisu"
     Facebook = ""
     Telegram = ""
