@@ -4,12 +4,12 @@
 <!--more-->
 ## 微信公众号
 
-<span style="color:red;">先去看场电影...下载链接等待后续发布</span>
-
 {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
 
-## 4 【Merry BaiduDisk】Release
+## 【Merry BaiduDisk】Release
+
+<span style="color:red;">先去看场电影...下载链接等待后续发布</span>
 
  - 下载链接：
 
