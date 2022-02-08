@@ -737,7 +737,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   [params.social]
     GitHub = "/Albresky"
     Linkedin = ""
-    Twitter = "AlbrechtCarlosS"
+    Twitter = "Rocky"
     Instagram = "__imisu"
     Facebook = ""
     Telegram = ""
