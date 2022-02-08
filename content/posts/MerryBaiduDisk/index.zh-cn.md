@@ -15,7 +15,7 @@ resources:
 tags: ["绿化","Qt"]
 categories: ["Qt"]
 
-featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/MerryBaiduDisk/featured-image.jpg"
+featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/MerryBaiduDisk/featured-image.png"
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/MerryBaiduDisk/featured-image-preview.png"
 
 toc:
