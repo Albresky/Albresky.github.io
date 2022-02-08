@@ -1,6 +1,6 @@
 baseURL = ""
 
-ignoreErrors = ["error-remote-getjson"]
+ignoreErrors = "error-remote-getjson"
 
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
