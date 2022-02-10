@@ -33,10 +33,8 @@ lightgallery: true
 
 ## 【Merry BaiduDisk】Release
 
-<span style="color:red;">先去看场电影...下载链接等待后续发布</span>
+### Merry BaiduDisk v0.1 
 
  - 下载链接：
 
-   - {{< link "https://wwi.lanzoux.com/" "敬请期待-蓝奏云【解压密码：】" "点击跳转到蓝奏云" >}}
-
-   - {{< link "https://pan.baidu.com/s/" "敬请期待-百度云盘【解压密码：】" "点击跳转到百度网盘" >}}
+   - {{< link "https://wwe.lanzoux.com/b01p37nch" "Merry BaiduDisk v0.1">}}

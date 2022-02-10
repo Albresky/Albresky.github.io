@@ -1193,15 +1193,3 @@ Sample input of Instagram TV
 Sample output of Instagram TV
 
 {{< oembed "ig" "tv" "BkQUbR8h1sp" "hidecaption" >}}
-
-### 12.3 oEmbed Twitter
-
-Sample input of 'oembed tweet'
-
-```markdown
-{{</* oembed "tweet" "https://twitter.com/GoHugoIO/status/877500564405444608" */>}}
-```
-
-Sample output of 'oembed tweet'
-
-{{< oembed "tweet" "https://twitter.com/GoHugoIO/status/877500564405444608" >}}
