@@ -95,14 +95,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         url = "/about/"
         title = ""
         weight = 5
-      [[languages.zh-cn.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "Albresky"
-        title = "GitHub"
-        weight = 6
+        
     [languages.zh-cn.params]
       # 网站描述
       description = "关于 imisu"
@@ -113,7 +106,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
         title = "imisu"
         # 是否隐藏网站图标资源链接
-        noFavicon = false
+        noFavicon = true
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
         svgFavicon = ""
         # Android 浏览器主题色
@@ -155,7 +148,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         paramTitle = "个人信息"
         # 您网站的一般描述
         # 可以用markdown样式写
-        description = "[imisu](https://github.com/Albresky/Albresky.github.io) 是一个由 [Albresky] 建立的**简洁**、**优雅**且**高效**的基于[Hugo](https://gohugo.io/) 主题的个人博客。"
+        description = "[imisu](https://github.com/Albresky/Albresky.github.io) 是一个由 [Albresky] 基于[Hugo](https://gohugo.io/) 主题建立的个人博客。"
         # 你的状态描述
         [[languages.zh-cn.params.about.status]]
           faIcon = "fas fa-briefcase fa-fw"
@@ -201,180 +194,180 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         [languages.zh-cn.params.home.posts]
           enable = true
           # 主页每页显示文章数量
-          paginate = 6
+          paginate = 10
           # display image-preview
           imagePreview = true  
 
-  [languages.en]
-    weight = 2
-    # language code
-    languageCode = "en"
-    # language name
-    languageName = "English"
-    # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = true
-    # default amount of posts in each pages
-    paginate = 12
-    # copyright description used only for seo schema
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    # Menu config
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
-        # you can add extra information after the name (HTML format is supported), such as icons
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-        weight = 2
-      [[languages.en.menu.main]]
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-        weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
-      [[languages.en.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-        weight = 5
-      [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/Albresky/Albresky.github.io"
-        title = "GitHub"
-        weight = 6
-    [languages.en.params]
-      # site description
-      description = "About imisu"
-      # site keywords
-      keywords = ["Blog", "C++"]
-      # App icon config
-      [languages.en.params.app]
-        # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "imisu"
-        # whether to omit favicon resource links
-        noFavicon = false
-        # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
-        # Android browser theme color
-        themeColor = "#ffffff"
-        # Safari mask icon color
-        iconColor = "#5bbad5"
-        # Windows v8-10 tile color
-        tileColor = "#da532c"
-      # Search config
-      [languages.en.params.search]
-        enable = true
-        # type of search engine ("lunr", "algolia")
-        type = "algolia"
-        # max index length of the chunked content
-        contentLength = 4000
-        # placeholder of the search bar
-        placeholder = ""
-        # max number of results length
-        maxResultLength = 10
-        # snippet length of the result
-        snippetLength = 30
-        # HTML tag name of the highlight part in results
-        highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "UAL0NNJWXE"
-          searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
+  # [languages.en]
+  #   weight = 2
+  #   # language code
+  #   languageCode = "en"
+  #   # language name
+  #   languageName = "English"
+  #   # whether to include Chinese/Japanese/Korean
+  #   hasCJKLanguage = true
+  #   # default amount of posts in each pages
+  #   paginate = 12
+  #   # copyright description used only for seo schema
+  #   copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+  #   # Menu config
+  #   [languages.en.menu]
+  #     [[languages.en.menu.main]]
+  #       identifier = "posts"
+  #       # you can add extra information before the name (HTML format is supported), such as icons
+  #       pre = ""
+  #       # you can add extra information after the name (HTML format is supported), such as icons
+  #       post = ""
+  #       name = "Posts"
+  #       url = "/posts/"
+  #       # title will be shown when you hover on this menu link.
+  #       title = ""
+  #       weight = 1
+  #     [[languages.en.menu.main]]
+  #       identifier = "tags"
+  #       pre = ""
+  #       post = ""
+  #       name = "Tags"
+  #       url = "/tags/"
+  #       title = ""
+  #       weight = 2
+  #     [[languages.en.menu.main]]
+  #       identifier = "categories"
+  #       pre = ""
+  #       post = ""
+  #       name = "Categories"
+  #       url = "/categories/"
+  #       title = ""
+  #       weight = 3
+  #     [[languages.en.menu.main]]
+  #       identifier = "documentation"
+  #       pre = ""
+  #       post = ""
+  #       name = "Docs"
+  #       url = "/categories/documentation/"
+  #       title = ""
+  #       weight = 4
+  #     [[languages.en.menu.main]]
+  #       identifier = "about"
+  #       pre = ""
+  #       post = ""
+  #       name = "About"
+  #       url = "/about/"
+  #       title = ""
+  #       weight = 5
+  #     [[languages.en.menu.main]]
+  #       identifier = "github"
+  #       pre = "<i class='fab fa-github fa-fw'></i>"
+  #       post = ""
+  #       name = ""
+  #       url = "https://github.com/Albresky/Albresky.github.io"
+  #       title = "GitHub"
+  #       weight = 6
+  #   [languages.en.params]
+  #     # site description
+  #     description = "About imisu"
+  #     # site keywords
+  #     keywords = ["Blog", "C++"]
+  #     # App icon config
+  #     [languages.en.params.app]
+  #       # optional site title override for the app when added to an iOS home screen or Android launcher
+  #       title = "imisu"
+  #       # whether to omit favicon resource links
+  #       noFavicon = false
+  #       # modern SVG favicon to use in place of older style .png and .ico files
+  #       svgFavicon = ""
+  #       # Android browser theme color
+  #       themeColor = "#ffffff"
+  #       # Safari mask icon color
+  #       iconColor = "#5bbad5"
+  #       # Windows v8-10 tile color
+  #       tileColor = "#da532c"
+  #     # Search config
+  #     [languages.en.params.search]
+  #       enable = true
+  #       # type of search engine ("lunr", "algolia")
+  #       type = "algolia"
+  #       # max index length of the chunked content
+  #       contentLength = 4000
+  #       # placeholder of the search bar
+  #       placeholder = ""
+  #       # max number of results length
+  #       maxResultLength = 10
+  #       # snippet length of the result
+  #       snippetLength = 30
+  #       # HTML tag name of the highlight part in results
+  #       highlightTag = "em"
+  #       # whether to use the absolute URL based on the baseURL in search index
+  #       absoluteURL = false
+  #       [languages.en.params.search.algolia]
+  #         index = "index.en"
+  #         appID = "UAL0NNJWXE"
+  #         searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
 
-      # About page config
-      [languages.en.params.about]
-        # whether to enable profile on about page
-        # depends on .Site.Params.home.profile.enable
-        enable = true
-        # whether to enable param layout
-        param = true
-        # title for param layout
-        paramTitle = "Personal Information"
-        # general description of your site
-        # can be write with markdown style
-        description = "[[imisu](https://github.com/Albresky/Albresky.github.io) is a **clean**, **elegant** but **advanced** personal blog based on theme [Hugo](https://gohugo.io/)."
-        # description of your status
-        [[languages.en.params.about.status]]
-          faIcon = "fas fa-building"
-          title = "Company"
-          desc = "imisu"
-        [[languages.en.params.about.status]]
-          faIcon = "fas fa-briefcase fa-fw"
-          title = "Occupation"
-          desc = "Freelancer"
-        [[languages.en.params.about.status]]
-          title = "Location"
-          faIcon = "fas fa-map-marker-alt"
-          desc = "Earth"
-        # description of your parameter
-        [[languages.en.params.about.parameter]]
-          language = "UI/UX"
-          level = "80"
-        [[languages.en.params.about.parameter]]
-          language = "HTML"
-          level = "70"
-        [[languages.en.params.about.parameter]]
-          language = "Go"
-          level = "60"
+  #     # About page config
+  #     [languages.en.params.about]
+  #       # whether to enable profile on about page
+  #       # depends on .Site.Params.home.profile.enable
+  #       enable = true
+  #       # whether to enable param layout
+  #       param = true
+  #       # title for param layout
+  #       paramTitle = "Personal Information"
+  #       # general description of your site
+  #       # can be write with markdown style
+  #       description = "[[imisu](https://github.com/Albresky/Albresky.github.io) is a **clean**, **elegant** but **advanced** personal blog based on theme [Hugo](https://gohugo.io/)."
+  #       # description of your status
+  #       [[languages.en.params.about.status]]
+  #         faIcon = "fas fa-building"
+  #         title = "Company"
+  #         desc = "imisu"
+  #       [[languages.en.params.about.status]]
+  #         faIcon = "fas fa-briefcase fa-fw"
+  #         title = "Occupation"
+  #         desc = "Freelancer"
+  #       [[languages.en.params.about.status]]
+  #         title = "Location"
+  #         faIcon = "fas fa-map-marker-alt"
+  #         desc = "Earth"
+  #       # description of your parameter
+  #       [[languages.en.params.about.parameter]]
+  #         language = "UI/UX"
+  #         level = "80"
+  #       [[languages.en.params.about.parameter]]
+  #         language = "HTML"
+  #         level = "70"
+  #       [[languages.en.params.about.parameter]]
+  #         language = "Go"
+  #         level = "60"
 
-      # Home page config
-      [languages.en.params.home]
-        # amount of RSS pages
-        rss = 10
-        # Home page profile
-        [languages.en.params.home.profile]
-          enable = true
-          # Gravatar Email for preferred avatar in home page
-          gravatarEmail = ""
-          # URL of avatar shown in home page
-          avatarURL = "/images/avatar.png"
-          # title shown in home page (HTML format is supported)
-          title = "imisu | I Miss U"
-          # subtitle shown in home page (HTML format is supported)
-          subtitle = "A Clean, Elegant but Advanced Blog"
-          # whether to use typeit animation for subtitle
-          typeit = true
-          # whether to show social links
-          social = true
-          # disclaimer (HTML format is supported)
-          disclaimer = ""
-        # Home page posts
-        [languages.en.params.home.posts]
-          enable = true
-          # special amount of posts in each home posts page
-          paginate = 6
-          # display image-preview
-          imagePreview = true
+  #     # Home page config
+  #     [languages.en.params.home]
+  #       # amount of RSS pages
+  #       rss = 10
+  #       # Home page profile
+  #       [languages.en.params.home.profile]
+  #         enable = true
+  #         # Gravatar Email for preferred avatar in home page
+  #         gravatarEmail = ""
+  #         # URL of avatar shown in home page
+  #         avatarURL = "/images/avatar.png"
+  #         # title shown in home page (HTML format is supported)
+  #         title = "imisu | I Miss U"
+  #         # subtitle shown in home page (HTML format is supported)
+  #         subtitle = "A Clean, Elegant but Advanced Blog"
+  #         # whether to use typeit animation for subtitle
+  #         typeit = true
+  #         # whether to show social links
+  #         social = true
+  #         # disclaimer (HTML format is supported)
+  #         disclaimer = ""
+  #       # Home page posts
+  #       [languages.en.params.home.posts]
+  #         enable = true
+  #         # special amount of posts in each home posts page
+  #         paginate = 6
+  #         # display image-preview
+  #         imagePreview = true
 
 
 
@@ -447,7 +440,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     custom = ''
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = false
+    hugo = true
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
@@ -488,7 +481,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     dateFormat = "01-02"
     # amount of RSS pages
     # RSS 文章数目
-    rss = 10 
+    rss = 10
     
 # Page config
   # 文章页面配置
@@ -735,7 +728,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         
 # 主页的社交信息设置
   [params.social]
-    GitHub = "/Albresky"
+    GitHub = "Albresky"
     Linkedin = ""
     Twitter = "AlbrechtCarlosS"
     Instagram = "__imisu"
