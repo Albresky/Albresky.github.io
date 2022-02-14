@@ -3,6 +3,8 @@
 ## Update
  - add "password" to a post
  - support 4K & 8K resolution
+***
+
 # 2021/10/05 20:20
 ## Changes
 The "/public" folder has been pushed to the gh-pages branch.
@@ -12,6 +14,8 @@ The "/public" folder has been pushed to the gh-pages branch.
  - completed almost 80 percent of the website build.
 ## Bugs
 Not found yet, except for those that haven't been solved.
+***
+
 # 2021/10/02 16:30
 ## Update
  - added comment system(not tested yet).
