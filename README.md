@@ -1,4 +1,8 @@
 # Readme
+# 2022/02/14 14:30
+## Update
+ - add "password" to a post
+ - support 4K & 8K resolution
 # 2021/10/05 20:20
 ## Changes
 The "/public" folder has been pushed to the gh-pages branch.
