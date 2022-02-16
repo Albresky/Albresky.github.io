@@ -12,7 +12,6 @@
 ## 片头曲 & 背景音乐
 
 `Titoli - Ennio Morricone`
-
 {{< music server="netease" type="song" id="283289855" autoplay="true">}}
 
 ## 获取字幕
