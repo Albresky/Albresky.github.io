@@ -9,7 +9,9 @@
 
 {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
-{{< music server="netease" type="song" id="283289855" autoplay=true >}}
+{{< music netease song 283289855 >}}
+
+{{< music server="netease" type="song" id="283289855" autoplay="true" >}}
 
 ## 获取字幕
 
