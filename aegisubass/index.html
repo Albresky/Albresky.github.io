@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>《荒野大镖客》之Ass特效字幕制作 - imisu</title><meta name="description" content="关于 imisu"><meta property="og:title" content="《荒野大镖客》之Ass特效字幕制作" />
+<meta property="og:description" content="Aegisub之Ass特效字幕制作" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/aegisubass/" /><meta property="og:image" content="/aegisubass/featured-image-preview.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-16T22:07:24+08:00" />
+<meta property="article:modified_time" content="2022-02-16T23:20:27+08:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/aegisubass/featured-image-preview.png"/>
+<meta name="twitter:title" content="《荒野大镖客》之Ass特效字幕制作"/>
+<meta name="twitter:description" content="Aegisub之Ass特效字幕制作"/>
+<meta name="application-name" content="imisu">
+<meta name="apple-mobile-web-app-title" content="imisu"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="/aegisubass/" /><link rel="prev" href="/merrybaidudisk/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "《荒野大镖客》之Ass特效字幕制作",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/aegisubass\/"
+        },"image": ["\/images\/Apple-Devices-Preview.webp"],"genre": "posts","keywords": "movies, Aegisub","wordcount":  1254 ,
+        "url": "\/aegisubass\/","datePublished": "2022-02-16T22:07:24+08:00","dateModified": "2022-02-16T23:20:27+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "Albresky"
+            },"description": ""
+    }
+    </script></head><body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="imisu"><span class="header-title-pre"><i class='fas fa-dove'></i></span>imisu</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索功能暂不可用" id="search-input-desktop">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a class="menu-item" href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="imisu"><span class="header-title-pre"><i class='fas fa-dove'></i></span>imisu</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索功能暂不可用" id="search-input-mobile">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="#" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a>
+                <span>&nbsp;|&nbsp;</span><a href="javascript:void(0);" class="theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single" data-toc="enable"><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png"
+        data-srcset="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png, https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png 1.5x, https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png 2x"
+        data-sizes="auto"
+        alt="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png"
+        title="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">《荒野大镖客》之Ass特效字幕制作</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Albresky</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/%E7%94%B5%E5%BD%B1/"><i class="far fa-folder fa-fw"></i>电影</a></span></div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-02-16">2022-02-16</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1254 字</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟</span>&nbsp;<span id="/aegisubass/" class="leancloud_visitors" data-flag-title="《荒野大镖客》之Ass特效字幕制作">
+                            <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                        </span>&nbsp;</div>
+            </div>
+            
+            <hr><div class="details toc" id="toc-static"  data-kept="">
+                    <div class="details-summary toc-title">
+                        <span>目录</span>
+                        <span><i class="details-icon fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#微信公众号">微信公众号</a></li>
+    <li><a href="#获取字幕">获取字幕</a></li>
+    <li><a href="#获取影片">获取影片</a>
+      <ul>
+        <li><a href="#影片信息">影片信息</a></li>
+        <li><a href="#资源">资源</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+                </div><div class="content" id="content"><p><strong>Aegisub</strong>之Ass特效字幕制作</p>
+<h2 id="微信公众号">微信公众号</h2>
+<p><span style="color:red;">本文详情请关注微信公众号：</span></p>
+<figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" title="公众号：代码之火" data-thumbnail="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" data-sub-html="<h2>公众号：代码之火</h2><p>公众号：代码之火</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png"
+            data-srcset="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png, https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png 1.5x, https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png 2x"
+            data-sizes="auto"
+            alt="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" />
+    </a><figcaption class="image-caption">公众号：代码之火</figcaption>
+    </figure>
+<h2 id="获取字幕">获取字幕</h2>
+<ul>
+<li>
+<p>下载链接：</p>
+<ul>
+<li>
+<a href="https://subhd.tv/a/530479" title="点击跳转到SubHD" target="_blank" rel="noopener noreffer">SubHD - 2022/02/16更新</a>
+</li>
+<li>
+<a href="https://zimuku.pw/detail/166382.html" title="点击跳转到字幕库" target="_blank" rel="noopener noreffer">字幕库 - 2022/02/16更新</a>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="获取影片">获取影片</h2>
+<h3 id="影片信息">影片信息</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span><span class="lnt">156
+</span><span class="lnt">157
+</span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
+</span><span class="lnt">161
+</span><span class="lnt">162
+</span><span class="lnt">163
+</span><span class="lnt">164
+</span><span class="lnt">165
+</span><span class="lnt">166
+</span><span class="lnt">167
+</span><span class="lnt">168
+</span><span class="lnt">169
+</span><span class="lnt">170
+</span><span class="lnt">171
+</span><span class="lnt">172
+</span><span class="lnt">173
+</span><span class="lnt">174
+</span><span class="lnt">175
+</span><span class="lnt">176
+</span><span class="lnt">177
+</span><span class="lnt">178
+</span><span class="lnt">179
+</span><span class="lnt">180
+</span><span class="lnt">181
+</span><span class="lnt">182
+</span><span class="lnt">183
+</span><span class="lnt">184
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown">General
+Unique ID                      : 234771498082653244481940208931999102133 (0xB09F5887F61112B464B26644FED8B4B5)
+Complete name                  : D:\迅雷下载\A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT\A.Fistful.of.Dollars.1964.REMASTERED1080p.  BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT.mkv
+Format                         : Matroska
+Format version                 : Version 4
+File size                      : 25.0 GiB
+Duration                       : 1 h 40 min
+Overall bit rate mode          : Variable
+Overall bit rate               : 35.5 Mb/s
+Movie name                     : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+Encoded date                   : UTC 2018-11-18 09:41:27
+Writing application            : mkvmerge v28.2.0 (&#39;The Awakening&#39;) 64-bit
+Writing library                : libebml v1.3.6 + libmatroska v1.4.9
+Cover                          : Yes
+Attachments                    : cover_land.jpg / small_cover.jpg / small_cover_land.jpg / cover.jpg
+Video
+ID                             : 1
+Format                         : AVC
+Format/Info                    : Advanced Video Codec
+Format profile                 : High@L4.1
+Format settings                : CABAC / 4 Ref Frames
+Format settings, CABAC         : Yes
+Format settings, Reference fra : 4 frames
+Codec ID                       : V_MPEG4/ISO/AVC
+Duration                       : 1 h 40 min
+Bit rate mode                  : Variable
+Bit rate                       : 28.8 Mb/s
+Maximum bit rate               : 35.0 Mb/s
+Width                          : 1 920 pixels
+Height                         : 1 080 pixels
+Display aspect ratio           : 16:9
+Frame rate mode                : Constant
+Frame rate                     : 23.976 (24000/1001) FPS
+Color space                    : YUV
+Chroma subsampling             : 4:2:0
+Bit depth                      : 8 bits
+Scan type                      : Progressive
+Bits/(Pixel*Frame)             : 0.580
+Stream size                    : 20.3 GiB (81%)
+Title                          : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+Language                       : English
+Default                        : No
+Forced                         : No
+Audio <span class="ni">#1</span>
+ID                             : 2
+Format                         : DTS XLL
+Format/Info                    : Digital Theater Systems
+Commercial name                : DTS-HD Master Audio
+Codec ID                       : A_DTS
+Duration                       : 1 h 40 min
+Bit rate mode                  : Variable
+Bit rate                       : 1 722 kb/s
+Channel(s)                     : 6 channels
+Channel layout                 : C L R Ls Rs LFE
+Sampling rate                  : 48.0 kHz
+Frame rate                     : 93.750 FPS (512 SPF)
+Bit depth                      : 16 bits
+Compression mode               : Lossless
+Stream size                    : 1.21 GiB (5%)
+Title                          : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+Language                       : English
+Default                        : Yes
+Forced                         : No
+Audio <span class="ni">#2</span>
+ID                             : 3
+Format                         : DTS
+Format/Info                    : Digital Theater Systems
+Codec ID                       : A_DTS
+Duration                       : 1 h 40 min
+Bit rate mode                  : Constant
+Bit rate                       : 1 509 kb/s
+Channel(s)                     : 6 channels
+Channel layout                 : C L R Ls Rs LFE
+Sampling rate                  : 48.0 kHz
+Frame rate                     : 93.750 FPS (512 SPF)
+Bit depth                      : 16 bits
+Compression mode               : Lossy
+Stream size                    : 1.06 GiB (4%)
+Title                          : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+Language                       : English
+Default                        : No
+Forced                         : No
+Audio <span class="ni">#3</span>
+ID                             : 4
+Format                         : DTS XLL
+Format/Info                    : Digital Theater Systems
+Commercial name                : DTS-HD Master Audio
+Codec ID                       : A_DTS
+Duration                       : 1 h 40 min
+Bit rate mode                  : Variable
+Bit rate                       : 1 567 kb/s
+Channel(s)                     : 2 channels
+Channel layout                 : L R
+Sampling rate                  : 48.0 kHz
+Frame rate                     : 93.750 FPS (512 SPF)
+Bit depth                      : 16 bits
+Compression mode               : Lossless
+Stream size                    : 1.10 GiB (4%)
+Title                          : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+Language                       : English
+Default                        : No
+Forced                         : No
+Audio <span class="ni">#4</span>
+ID                             : 5
+Format                         : DTS
+Format/Info                    : Digital Theater Systems
+Codec ID                       : A_DTS
+Duration                       : 1 h 40 min
+Bit rate mode                  : Constant
+Bit rate                       : 1 509 kb/s
+Channel(s)                     : 2 channels
+Channel layout                 : L R
+Sampling rate                  : 48.0 kHz
+Frame rate                     : 93.750 FPS (512 SPF)
+Bit depth                      : 16 bits
+Compression mode               : Lossy
+Stream size                    : 1.06 GiB (4%)
+Title                          : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+Language                       : English
+Default                        : No
+Forced                         : No
+Audio <span class="ni">#5</span>
+ID                             : 6
+Format                         : AC-3
+Format/Info                    : Audio Coding 3
+Commercial name                : Dolby Digital
+Codec ID                       : A_AC3
+Duration                       : 1 h 40 min
+Bit rate mode                  : Constant
+Bit rate                       : 192 kb/s
+Channel(s)                     : 2 channels
+Channel layout                 : L R
+Sampling rate                  : 48.0 kHz
+Frame rate                     : 31.250 FPS (1536 SPF)
+Compression mode               : Lossy
+Stream size                    : 138 MiB (1%)
+Title                          : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+Language                       : English
+Service kind                   : Complete Main
+Default                        : No
+Forced                         : No
+Audio <span class="ni">#6</span>
+ID                             : 7
+Format                         : AC-3
+Format/Info                    : Audio Coding 3
+Commercial name                : Dolby Digital
+Codec ID                       : A_AC3
+Duration                       : 1 h 40 min
+Bit rate mode                  : Constant
+Bit rate                       : 192 kb/s
+Channel(s)                     : 2 channels
+Channel layout                 : L R
+Sampling rate                  : 48.0 kHz
+Frame rate                     : 31.250 FPS (1536 SPF)
+Compression mode               : Lossy
+Stream size                    : 138 MiB (1%)
+Title                          : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
+Language                       : English
+Service kind                   : Complete Main
+Default                        : No
+Forced                         : No
+Text
+ID                             : 8
+Format                         : PGS
+Muxing mode                    : zlib
+Codec ID                       : S_HDMV/PGS
+Codec ID/Info                  : Picture based subtitle format used on BDs/HD-DVDs
+Duration                       : 1 h 35 min
+Bit rate                       : 18.1 kb/s
+Count of elements              : 1396
+Stream size                    : 12.3 MiB (0%)
+Title                          : English-PGS
+Language                       : English
+Default                        : Yes
+Forced                         : No
+Menu
+00:00:00.000                   : en:Chapter 00
+00:12:51.228                   : en:Chapter 01
+00:21:14.564                   : en:Chapter 02
+00:33:07.360                   : en:Chapter 03
+00:50:38.660                   : en:Chapter 04
+01:00:12.025                   : en:Chapter 05
+01:11:54.685                   : en:Chapter 06
+01:25:02.722                   : en:Chapter 07
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="资源">资源</h3>
+<ul>
+<li><a href="https://www.aliyundrive.com/s/ZjtE9Pq3rbg%20" title="点击跳转到阿里网盘" target="_blank" rel="noopener noreffer">阿里云盘【提取码：代码之火】</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info"><div class="post-info-tag"><span><a href="/tags/movies/">movies</a>
+                </span><span><a href="/tags/aegisub/">Aegisub</a>
+                </span></div><div class="post-info-line"><div class="post-info-mod">
+                <span>更新于 2022-02-16&nbsp;<a class="git-hash" href="https://github.com/Albresky/Albresky.github.io/commit/089467d03debf749e7230fa35c5f0ab89f91f8c2" target="_blank" title="committed&nbsp;by&nbsp;Albresky(78648318&#43;Albresky@users.noreply.github.com)&nbsp;089467d:&nbsp;fix">
+                            <i class="fas fa-hashtag fa-fw"></i>089467d</a></span>
+            </div><div class="post-info-mod"><span>
+                            <a class="link-to-markdown" href="/aegisubass/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+        </div><div class="post-info-share">
+            <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="/aegisubass/" data-title="《荒野大镖客》之Ass特效字幕制作" data-via="AlbrechtCarlosS" data-hashtags="movies,Aegisub"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="/aegisubass/" data-hashtag="movies"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="/aegisubass/" data-title="《荒野大镖客》之Ass特效字幕制作" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="/aegisubass/" data-title="《荒野大镖客》之Ass特效字幕制作" data-image="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png"><i class="fab fa-weibo fa-fw"></i></a></span>
+        </div></div><div class="post-nav"><a href="/merrybaidudisk/" class="prev" rel="prev" title="百度网盘PC客户端之绿化小工具"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a></div></div>
+</div><div id="comments" class="single-card"><div id="valine"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Albresky</a></span></div>
+</div>
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.min.js?version=1.0.1', { scope: '/' })
+        .then(() => {
+            console.info('imisu\u00A0Service Worker Registered');
+        }, err => console.error('imisu\u00A0Service Worker registration failed: ', err));
+
+    navigator.serviceWorker
+        .ready
+        .then(() => {
+            console.info('imisu\u00A0Service Worker Ready');
+        });
+}
+</script>
+</footer>
+        </div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-chevron-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment-alt fa-fw"></i>
+            </a></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.1-beta.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/copy-tex.min.css"><script src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.from%2CIntersectionObserver%2CMath.sign%2CObject.assign%2CPromise%2CObject.entries%2Chtml5shiv%2CObject.values%2Cfetch%2CElement.prototype.after"></script><script src="https://cdn.jsdelivr.net/npm/object-fit-images@3.2.4/dist/ofi.min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.0/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.3/dist/algoliasearch-lite.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/twemoji@13.1.0/dist/twemoji.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.1-beta.0/dist/js/lightgallery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.3.0/dist/lg-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.1/sharer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/copy-tex.min.js"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/mhchem.min.js"></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"isCN3G6Fxga9Ud86onbltnaB-gzGzoHsz","appKey":"ovKaSRUTyTGJbNQTqB3PKzgc","avatar":"mm","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":true,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"说点什么吧...","recordIP":false,"serverURLs":"https://iscn3g6f.lc-cn-n1-shared.com","visitor":true}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"UAL0NNJWXE","algoliaIndex":"index.zh-cn","algoliaSearchKey":"7b7fbdfb7ee82ee61901f2c6b09b05be","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"},"twemoji":true};</script><script src="/js/theme.min.js"></script></body></html>
