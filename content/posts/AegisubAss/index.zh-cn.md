@@ -1,6 +1,5 @@
 ---
 title: "《荒野大镖客》之Ass特效字幕制作"
-password: "test"
 subtitle: ""
 date: 2022-02-16T22:07:24+08:00
 lastmod: 2022-02-16T22:07:24+08:00
