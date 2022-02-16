@@ -36,6 +36,8 @@ lightgallery: true
 
 {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
+{{< music server="netease" type="song" id="283289855" autoplay=true >}}
+
 ## 获取字幕
 
  - 下载链接：
@@ -51,7 +53,7 @@ lightgallery: true
 ```Markdown
 General
 Unique ID                      : 234771498082653244481940208931999102133 (0xB09F5887F61112B464B26644FED8B4B5)
-Complete name                  : D:\迅雷下载\A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT\A.Fistful.of.Dollars.1964.REMASTERED1080p.  BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT.mkv
+Complete name                  : A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT
 Format                         : Matroska
 Format version                 : Version 4
 File size                      : 25.0 GiB
