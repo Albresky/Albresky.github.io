@@ -2,7 +2,7 @@
 title: "《荒野大镖客》之Ass特效字幕制作"
 subtitle: ""
 date: 2022-02-16T22:07:24+08:00
-lastmod: 2022-02-16T22:07:24+08:00
+lastmod: 2022-02-16T23:07:24+08:00
 draft: false
 author: "Albresky"
 authorLink: ""
@@ -12,7 +12,7 @@ resources:
   src: ""
 - name: "featured-image-preview"
   src: ""
-tags: ["movies", "Aegisub"]
+tags: ["Aegisub"]
 categories: ["电影"]
 
 featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png"
@@ -24,7 +24,7 @@ featuredImagePreview:
 toc:
   enable: true
 math:
-  enable: true
+  enable: false
 lightgallery: true
 ---
 **Aegisub**之Ass特效字幕制作
@@ -36,7 +36,9 @@ lightgallery: true
 
 {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
-{{< music server="netease" type="song" id="283289855" autoplay=true >}}
+{{< music netease song 283289855 >}}
+
+{{< music server="netease" type="song" id="283289855" autoplay="true" >}}
 
 ## 获取字幕
 

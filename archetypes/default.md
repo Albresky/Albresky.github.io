@@ -24,7 +24,7 @@ featuredImagePreview:
 toc:
   enable: true
 math:
-  enable: true
+  enable: false
 lightgallery: true
 ---
 
