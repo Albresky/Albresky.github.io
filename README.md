@@ -1,4 +1,8 @@
 # Readme
+# 2022/02/16 22:40
+## Fix
+ - remove 4K resolution support due to some unknown bugs
+***
 # 2022/02/14 14:30
 ## Update
  - add "password" to a post
