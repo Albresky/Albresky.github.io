@@ -44,15 +44,6 @@ mapbox:
 
 `Titoli - Ennio Morricone`
 
-### 音乐
-{{< music netease song 283289855 >}}
-
-### 自动识别
-
-{{< music auto="https://music.163.com/song?id=5027986&userid=283289855">}}
-
-## 自动播放
-
 {{< music server="netease" type="song" id="283289855" autoplay="true">}}
 
 ## 获取字幕
