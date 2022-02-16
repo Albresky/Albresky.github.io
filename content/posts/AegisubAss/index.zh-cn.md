@@ -18,14 +18,18 @@ categories: ["电影"]
 featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png"
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image-preview.png"
 
-hiddenFromHomePage: 
-featuredImagePreview: 
+hiddenFromHomePage: false
+featuredImagePreview: false
 
 toc:
   enable: true
 math:
-  enable: false
+  enable: true
 lightgallery: true
+mermaid: true
+mapbox:
+  lightStyle: mapbox://styles/mapbox/light-zh-v1?optimize=true
+  darkStyle: mapbox://styles/mapbox/dark-zh-v1?optimize=true
 ---
 **Aegisub**之Ass特效字幕制作
 <!--more-->
@@ -36,9 +40,20 @@ lightgallery: true
 
 {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
+## 片头曲 & 背景音乐
+
+`Titoli - Ennio Morricone`
+
+### 音乐
 {{< music netease song 283289855 >}}
 
-{{< music server="netease" type="song" id="283289855" autoplay="true" >}}
+### 自动识别
+
+{{< music auto="https://music.163.com/song?id=5027986&userid=283289855">}}
+
+## 自动播放
+
+{{< music server="netease" type="song" id="283289855" autoplay="true">}}
 
 ## 获取字幕
 
