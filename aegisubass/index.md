@@ -12,7 +12,9 @@
 ## 片头曲 & 背景音乐
 
 `Titoli - Ennio Morricone`
-{{< music netease song 283289855 >}}
+
+{{< music server="netease" type="song" id="5030840" autoplay="true" >}}
+
 
 ## 获取字幕
 
@@ -214,4 +216,4 @@ Menu
 ```
 
 ### 资源
- - {{< link "https://www.aliyundrive.com/s/ZjtE9Pq3rbg " "阿里云盘【提取码：代码之火】" "点击跳转到阿里网盘" >}}
+ - {{< link "https://www.aliyundrive.com/s/ZjtE9Pq3rbg" "阿里云盘【提取码：代码之火】" "点击跳转到阿里网盘" >}}
