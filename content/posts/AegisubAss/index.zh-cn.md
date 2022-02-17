@@ -33,6 +33,7 @@ lightgallery: true
 
 {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
+
 ## 片头曲 & 背景音乐
 
 `Titoli - Ennio Morricone`
@@ -47,6 +48,7 @@ lightgallery: true
    - {{< link "https://subhd.tv/a/530479" "SubHD - 2022/02/16更新" "点击跳转到SubHD" >}}
 
    - {{< link "https://zimuku.pw/detail/166382.html" "字幕库 - 2022/02/16更新" "点击跳转到字幕库" >}}
+
 
 ## 获取影片
 
@@ -238,6 +240,7 @@ Menu
 01:11:54.685                   : en:Chapter 06
 01:25:02.722                   : en:Chapter 07
 ```
+
 
 ### 资源
  - {{< link "https://www.aliyundrive.com/s/ZjtE9Pq3rbg" "阿里云盘【提取码：代码之火】" "点击跳转到阿里网盘" >}}
