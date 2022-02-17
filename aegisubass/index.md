@@ -1,6 +1,6 @@
-# 《荒野大镖客》之Ass特效字幕制作
+# 《荒野大镖客》之ASS特效字幕制作
 
-**Aegisub**之Ass特效字幕制作
+**Aegisub**之ASS特效字幕制作
 <!--more-->
 
 ## 微信公众号
@@ -12,7 +12,7 @@
 ## 片头曲 & 背景音乐
 
 `Titoli - Ennio Morricone`
-{{< music server="netease" type="song" id="283289855" autoplay="true">}}
+{{< music netease song 283289855 >}}
 
 ## 获取字幕
 
