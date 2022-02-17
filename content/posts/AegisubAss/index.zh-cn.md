@@ -1,5 +1,5 @@
 ---
-title: "《荒野大镖客》之Ass特效字幕制作"
+title: "《荒野大镖客》之ASS特效字幕制作"
 subtitle: ""
 date: 2022-02-16T22:07:24+08:00
 lastmod: 2022-02-16T23:07:24+08:00
@@ -26,12 +26,8 @@ toc:
 math:
   enable: true
 lightgallery: true
-mermaid: true
-mapbox:
-  lightStyle: mapbox://styles/mapbox/light-zh-v1?optimize=true
-  darkStyle: mapbox://styles/mapbox/dark-zh-v1?optimize=true
 ---
-**Aegisub**之Ass特效字幕制作
+**Aegisub**之ASS特效字幕制作
 <!--more-->
 
 ## 微信公众号
@@ -43,7 +39,7 @@ mapbox:
 ## 片头曲 & 背景音乐
 
 `Titoli - Ennio Morricone`
-{{< music server="netease" type="song" id="283289855" autoplay="true">}}
+{{< music netease song 283289855 >}}
 
 ## 获取字幕
 

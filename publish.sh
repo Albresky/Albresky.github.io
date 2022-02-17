@@ -32,4 +32,4 @@ cd public && git add --all && git commit -m "Publish to gh-pages (`date`)"
 echo -e "\n 部署public到与远程分支gh-pages \n"
 git push origin gh-pages
 
-read -n 1 -p "Press any key to continue..."
+# read -n 1 -p "Press any key to continue..."
