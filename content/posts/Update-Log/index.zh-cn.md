@@ -33,6 +33,7 @@ license: ""
 更新了一些功能，修复了许多Bug。
 <!--more-->
 {{< admonition type=abstract title="2021-10-11更新日志" open=true >}}
+
 ## 更新：
  - 将服务器DNS解析从阿里云迁移到了CloudFlare
  - 使用了CloudFlare CDN

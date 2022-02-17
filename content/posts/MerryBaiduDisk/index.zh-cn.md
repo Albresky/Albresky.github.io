@@ -21,7 +21,7 @@ featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@m
 toc:
   enable: true
 math:
-  enable: true
+  enable: false
 lightgallery: true
 ---
 **百度网盘PC客户端**之绿化小工具
@@ -33,8 +33,8 @@ lightgallery: true
 
 ## 【Merry BaiduDisk】Release
 
+
 ### Merry BaiduDisk v0.1 
 
  - 下载链接：
-
    - {{< link "https://wwe.lanzoux.com/b01p37nch" "Merry BaiduDisk v0.1">}}

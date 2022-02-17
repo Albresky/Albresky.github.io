@@ -45,7 +45,7 @@ Hugo **extended** 版本对于 `style` shortcode 是必需的.
 并且 `&` 指代这个父元素.
 
 第二个参数是包裹你要更改样式的内容的 HTML 标签, 默认值是 `div`.
-
+ 
 # **此处github检测有问题**
 一个 `style` 示例:
 

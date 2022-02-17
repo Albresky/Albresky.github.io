@@ -20,10 +20,11 @@ featuredImagePreview: ""
 toc:
   enable: true
 math:
-  enable: true
+  enable: false
 lightgallery: true
 license: ""
 ---
+
 
 # 介绍
 ## 第一次测试
