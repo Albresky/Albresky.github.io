@@ -18,8 +18,7 @@ categories: []
 featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/featured-image.png"
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/featured-image-preview.png"
 
-hiddenFromHomePage: 
-featuredImagePreview: 
+hiddenFromHomePage: false
 
 toc:
   enable: true
@@ -29,4 +28,3 @@ lightgallery: true
 ---
 
 <!--more-->
-
