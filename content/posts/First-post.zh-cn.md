@@ -11,7 +11,7 @@ description: ""
 tags: []
 categories: ["Web-Maintain"]
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
 
 featuredImage: ""

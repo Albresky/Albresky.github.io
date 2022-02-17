@@ -2,7 +2,7 @@
 title: "《荒野大镖客》之ASS特效字幕制作"
 subtitle: ""
 date: 2022-02-16T22:07:24+08:00
-lastmod: 2022-02-16T23:07:24+08:00
+lastmod: 2022-02-17T12:07:24+08:00
 draft: false
 author: "Albresky"
 authorLink: ""
@@ -19,7 +19,7 @@ featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/c
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image-preview.png"
 
 hiddenFromHomePage: false
-featuredImagePreview: false
+featuredImagePreview: true
 
 toc:
   enable: true
@@ -39,7 +39,9 @@ lightgallery: true
 ## 片头曲 & 背景音乐
 
 `Titoli - Ennio Morricone`
-{{< music netease song 283289855 >}}
+
+{{< music server="netease" type="song" id="5030840" autoplay="true" >}}
+
 
 ## 获取字幕
 
@@ -241,4 +243,4 @@ Menu
 ```
 
 ### 资源
- - {{< link "https://www.aliyundrive.com/s/ZjtE9Pq3rbg " "阿里云盘【提取码：代码之火】" "点击跳转到阿里网盘" >}}
+ - {{< link "https://www.aliyundrive.com/s/ZjtE9Pq3rbg" "阿里云盘【提取码：代码之火】" "点击跳转到阿里网盘" >}}
