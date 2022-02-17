@@ -18,9 +18,6 @@ categories: ["电影"]
 featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png"
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image-preview.png"
 
-hiddenFromHomePage: false
-featuredImagePreview: true
-
 toc:
   enable: true
 math:
