@@ -6,8 +6,8 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
             <webMaster>albre02@outlook.com (Albresky)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 25 Feb 2022 21:01:24 &#43;0800</lastBuildDate><atom:link href="/tags/%E4%BC%A0%E6%84%9F%E5%99%A8/" rel="self" type="application/rss+xml" /><item>
     <title>树莓派4B之入门指南</title>
-    <link>/respberryguide/</link>
-    <pubDate>Fri, 25 Feb 2022 21:01:24 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/respberryguide/</guid>
+    <link>/raspberryguide/</link>
+    <pubDate>Fri, 25 Feb 2022 21:01:24 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>/raspberryguide/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/https:/cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspBerryGuide/featured-image.png" referrerpolicy="no-referrer">
             </div><p><strong>树莓派4B</strong>之系统安装、远程投屏、中文输入法设置、串口、传感器&hellip;</p>]]></description>
