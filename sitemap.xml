@@ -2,11 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>/categories/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
+            <loc>/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
+            <loc>/posts/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/%E4%B8%B2%E5%8F%A3/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/%E4%BC%A0%E6%84%9F%E5%99%A8/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
+            <loc>/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
+            <loc>/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
+            <loc>/respberryguide/</loc><lastmod>2022-02-25T21:58:20&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>1</priority></url><url>
             <loc>/tags/aegisub/</loc><lastmod>2022-02-17T16:50:22&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>0.9</priority></url><url>
-            <loc>/categories/</loc><lastmod>2022-02-17T16:50:22&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>0.9</priority></url><url>
-            <loc>/</loc><lastmod>2022-02-17T16:50:22&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>0.9</priority></url><url>
-            <loc>/posts/</loc><lastmod>2022-02-17T16:50:22&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>0.9</priority></url><url>
-            <loc>/tags/</loc><lastmod>2022-02-17T16:50:22&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>0.9</priority></url><url>
             <loc>/aegisubass/</loc><lastmod>2022-02-17T16:50:22&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>0.9</priority></url><url>
             <loc>/categories/%E7%94%B5%E5%BD%B1/</loc><lastmod>2022-02-17T16:50:22&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>0.9</priority></url><url>
             <loc>/tags/qt/</loc><lastmod>2022-02-17T16:16:44&#43;08:00</lastmod><changefreq>dayly</changefreq><priority>0.9</priority></url><url>
