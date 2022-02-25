@@ -15,7 +15,7 @@
 `我的歌声里 - 曲婉婷&李代沫`
 
 
-{{< music url="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspBerryGuide/music.mp3" name=我的歌声里 artist=曲婉婷/李代沫 cover="cover.jpg" >}}
+{{< music url="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspberryGuide/music.mp3" name=我的歌声里 artist=曲婉婷/李代沫 cover="cover.jpg" >}}
 
 
 ### 工具链接
