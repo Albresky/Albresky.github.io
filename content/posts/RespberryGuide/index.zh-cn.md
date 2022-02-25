@@ -1,8 +1,8 @@
 ---
 title: "树莓派4B之入门指南"
-subtitle: ""
-date: 2022-02-25T22:07:24+08:00
-lastmod: 2022-02-25T22:07:24+08:00
+subtitle: "树莓派4B之系统安装、远程投屏、中文输入法设置、串口、传感器..."
+date: 2022-02-25T21:01:24+08:00
+lastmod: 2022-02-25T21:07:24+08:00
 draft: false
 author: "Albresky"
 authorLink: ""
@@ -21,7 +21,7 @@ featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@m
 toc:
   enable: true
 math:
-  enable: false
+  enable: true
 lightgallery: true
 ---
 **树莓派4B**之系统安装、远程投屏、中文输入法设置、串口、传感器...
