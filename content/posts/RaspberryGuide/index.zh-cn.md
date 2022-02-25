@@ -15,8 +15,8 @@ resources:
 tags: ["树莓派","传感器","串口"]
 categories: ["树莓派"]
 
-featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspBerryGuide/featured-image.png"
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspBerryGuide/featured-image-preview.png"
+featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspberryGuide/featured-image.png"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspberryGuide/featured-image-preview.png"
 
 toc:
   enable: true
@@ -39,7 +39,7 @@ lightgallery: true
 `我的歌声里 - 曲婉婷&李代沫`
 
 
-{{< music url="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspBerryGuide/music.mp3" name=我的歌声里 artist=曲婉婷/李代沫 cover="cover.jpg" >}}
+{{< music url="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/RaspberryGuide/music.mp3" name=我的歌声里 artist=曲婉婷/李代沫 cover="cover.jpg" >}}
 
 
 ### 工具链接
