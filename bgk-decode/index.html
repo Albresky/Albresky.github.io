@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>《不挂科APP》基于旧版的精简与去更新 - CosySpark</title><meta name="description" content="这里是 CosySpark"><meta property="og:title" content="《不挂科APP》基于旧版的精简与去更新" />
+<meta property="og:description" content="不挂科APP基于旧版的精简与去更新" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://cosyspark.space/bgk-decode/" /><meta property="og:image" content="http://cosyspark.space/bgk-decode/featured-image-preview.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-10T22:05:30+08:00" />
+<meta property="article:modified_time" content="2022-03-05T15:32:40+08:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://cosyspark.space/bgk-decode/featured-image-preview.png"/>
+<meta name="twitter:title" content="《不挂科APP》基于旧版的精简与去更新"/>
+<meta name="twitter:description" content="不挂科APP基于旧版的精简与去更新"/>
+<meta name="application-name" content="CosySpark">
+<meta name="apple-mobile-web-app-title" content="CosySpark"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="http://cosyspark.space/bgk-decode/" /><link rel="prev" href="http://cosyspark.space/win11/" /><link rel="next" href="http://cosyspark.space/offline/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "《不挂科APP》基于旧版的精简与去更新",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/cosyspark.space\/bgk-decode\/"
+        },"image": ["http:\/\/cosyspark.space\/images\/Apple-Devices-Preview.webp"],"genre": "posts","keywords": "安卓逆向, JEB, AndroidKiller, MT\/NP管理器","wordcount":  1406 ,
+        "url": "http:\/\/cosyspark.space\/bgk-decode\/","datePublished": "2021-10-10T22:05:30+08:00","dateModified": "2022-03-05T15:32:40+08:00","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "http:\/\/cosyspark.space\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "Albresky"
+            },"description": ""
+    }
+    </script></head><body data-header-desktop="auto" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <a href="https://github.com/Albresky" class="github-corner" target="_blank" title="Follow me on GitHub" aria-label="Follow me on GitHub"><svg width="3.5rem" height="3.5rem" viewBox="0 0 250 250" style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+        <div class="header-title" >
+            <a href="/" title="CosySpark"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/spark.png"
+        data-srcset="/images/spark.png, /images/spark.png 1.5x, /images/spark.png 2x"
+        data-sizes="auto"
+        alt="/images/spark.png"
+        title="/images/spark.png" /><span class="header-title-pre"><i class='fa-solid fa-sparkles'></i></span>CosySpark</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner">
+	                	<div class="dropdown">
+			                <a href="/posts/" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-archive'></i> 归档 
+			                </a>
+			                <div class="menu-more-content dropdown-content"><a href="/categories/" title="" ><i class='fas fa-fw fa-th'></i> 分类 </a><a href="/tags/" title="" ><i class='fas fa-fw fa-tag'></i> 标签 </a></div>
+		                </div>
+	                <a class="menu-item" href="/friends/"><i class='fas fa-fw fa-link'></i> 友链 
+		                </a>
+	                	<div class="dropdown">
+			                <a href="/fun/" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-fan fa-spin'></i> 趣味 
+			                </a>
+			                <div class="menu-more-content dropdown-content"><a href="/fun/catchcat/" title="" ><i class='fa-solid fa-cat'></i> 捉猫咪 </a></div>
+		                </div>
+	                <a class="menu-item" href="/about/"><i class='fas fa-fw fa-at'></i> 关于 
+		                </a><span class="menu-item delimiter"></span><a class="menu-item" href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="CosySpark"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/spark.png"
+        data-srcset="/images/spark.png, /images/spark.png 1.5x, /images/spark.png 2x"
+        data-sizes="auto"
+        alt="/images/spark.png"
+        title="/images/spark.png" /><span class="header-title-pre"><i class='fa-solid fa-sparkles'></i></span>CosySpark</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title=""><i class='fas fa-fw fa-archive'></i>归档</a><a class="menu-item" href="/friends/" title=""><i class='fas fa-fw fa-link'></i>友链</a><a class="menu-item" href="/fun/" title=""><i class='fas fa-fw fa-fan fa-spin'></i>趣味</a><a class="menu-item" href="/about/" title=""><i class='fas fa-fw fa-at'></i>关于</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a>
+                <span>&nbsp;|&nbsp;</span><a href="javascript:void(0);" class="theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single" data-toc="enable"><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="featured-image.jpg"
+        data-srcset="/bgk-decode/featured-image.jpg, featured-image.jpg 1.5x, /bgk-decode/featured-image.jpg 2x"
+        data-sizes="auto"
+        alt="/bgk-decode/featured-image.jpg"
+        title="/bgk-decode/featured-image.jpg" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">《不挂科APP》基于旧版的精简与去更新</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="http://cosyspark.space" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Albresky</a></span>&nbsp;<span class="post-category">出版于  <a href="/categories/%E5%AE%89%E5%8D%93%E9%80%86%E5%90%91/"><i class="far fa-folder fa-fw"></i>安卓逆向</a></span></div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-10-10">2021-10-10</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1406 字</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟</span>&nbsp;<span id="/bgk-decode/" class="leancloud_visitors" data-flag-title="《不挂科APP》基于旧版的精简与去更新">
+                            <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                        </span>&nbsp;</div>
+            </div>
+            
+            <hr><div class="details toc" id="toc-static"  data-kept="">
+                    <div class="details-summary toc-title">
+                        <span>目录</span>
+                        <span><i class="details-icon fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#微信公众号">微信公众号</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#1-为什么要选择不挂科app作为第一个逆向apk">1 为什么要选择“不挂科App”作为第一个逆向apk</a></li>
+    <li><a href="#2-使用了哪些工具来进行逆向">2 使用了哪些工具来进行逆向</a></li>
+    <li><a href="#3-逆向过程文字细节下次补充">3 逆向过程（文字细节下次补充）</a>
+      <ul>
+        <li><a href="#31-原旧版v122信息">3.1 原旧版（V1.2.2）信息</a></li>
+        <li><a href="#32-去除更新">3.2 去除更新</a></li>
+        <li><a href="#33-去除多余推广">3.3 去除多余推广</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-不挂科app去更新版本链接">4 【不挂科APP】去更新版本链接</a></li>
+  </ul>
+</nav></div>
+                </div><div class="content" id="content"><p><strong>不挂科APP</strong>基于旧版的精简与去更新</p>
+<h2 id="微信公众号">微信公众号</h2>
+<p><span style="color:red;">本文剩余部分已更新补全，添加了fiddler、charles等工具的使用，详情请关注公众号：</span></p>
+<figure><a class="lightgallery" href="/images/wechat.png" title="公众号：代码之火" data-thumbnail="/images/wechat.png" data-sub-html="<h2>公众号：代码之火</h2><p>公众号：代码之火</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/wechat.png"
+            data-srcset="/images/wechat.png, /images/wechat.png 1.5x, /images/wechat.png 2x"
+            data-sizes="auto"
+            alt="/images/wechat.png" />
+    </a><figcaption class="image-caption">公众号：代码之火</figcaption>
+    </figure>
+<h1 id="前言">前言</h1>
+<p><div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>说在前面<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>　　
+妈的，工作到一半同学发来了综评表，德育分非常低，导员评的比我自评的都低（明天去找他😢）。一等奖没了。</p>
+<p>很烦。</p>
+<p>下面的文字从简，有心情（空）了再二改.</p>
+</div>
+        </div>
+    </div>　</p>
+<h2 id="1-为什么要选择不挂科app作为第一个逆向apk">1 为什么要选择“不挂科App”作为第一个逆向apk</h2>
+<p><del>说在前面，因为不挂科App还没加壳，目前我还不会脱壳。</del></p>
+<p>话还得从今天下午5点说起：</p>
+<p>本来想联系概率论，刷课后习题的，发现课本没有答案，于是想下载电子版pdf答案作为参考。</p>
+<p>然而市面上的此类APP经我尝试，都很臃肿，还很流氓。</p>
+<p>然后我就想起了刚上大学的时候用过的这款APP&mdash;&gt;<strong>不挂科</strong>⭐,</p>
+<p>但是当我安装好最新版，发现它已经被原配程序媛小姐姐更新得<strong>面目全非</strong>，完全感觉不到它当年
+<strong>清新儒雅</strong>、<strong>简洁实用</strong>的风范:</p>
+<figure><a class="lightgallery" href="sbgk_new.jpg" title="面目全非的你" data-thumbnail="sbgk_new.jpg" data-sub-html="<h2>面目全非的你</h2><p>面目全非的你</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="sbgk_new.jpg"
+            data-srcset="sbgk_new.jpg, sbgk_new.jpg 1.5x, sbgk_new.jpg 2x"
+            data-sizes="auto"
+            alt="sbgk_new.jpg" />
+    </a><figcaption class="image-caption">面目全非的你</figcaption>
+    </figure>
+<p>&hellip;</p>
+<p>（<strong>凌晨了</strong>）</p>
+<p><strong>此处省略两百字</strong></p>
+<h2 id="2-使用了哪些工具来进行逆向">2 使用了哪些工具来进行逆向</h2>
+<p>俗话说，工欲善其事，必先利其器。下面简述所用</p>
+<p><strong>工具</strong>：</p>
+<ul>
+<li><strong>MT管理器</strong></li>
+<li><strong>NP管理器</strong></li>
+<li><strong>AndroidKiller</strong></li>
+<li>JEB</li>
+<li>Nox夜神模拟器</li>
+</ul>
+<p><strong>环境</strong>：</p>
+<ul>
+<li>Windows 11 x64 专业工作站版（其实我上次没有<strong>滚回</strong>10）</li>
+<li>jdk-7-80</li>
+</ul>
+<h2 id="3-逆向过程文字细节下次补充">3 逆向过程（文字细节下次补充）</h2>
+<h3 id="31-原旧版v122信息">3.1 原旧版（V1.2.2）信息</h3>
+<ul>
+<li>原样式： 
+如下图所示，原旧版APP虽能安装，但总频繁地弹出更新提示，反复想让用户更新到最新的臃肿版本。
+<figure><a class="lightgallery" href="/bgk-decode/bgk_ori_update.jpg" title="频繁的更新提示" data-thumbnail="/bgk-decode/bgk_ori_update.jpg" data-sub-html="<h2>频繁的更新提示</h2><p>频繁的更新提示</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="bgk_ori_update.jpg"
+            data-srcset="/bgk-decode/bgk_ori_update.jpg, bgk_ori_update.jpg 1.5x, /bgk-decode/bgk_ori_update.jpg 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/bgk_ori_update.jpg" />
+    </a><figcaption class="image-caption">频繁的更新提示</figcaption>
+    </figure></li>
+</ul>
+<p>转到设置，即使不检查更新，也会显示一个小红点，不仅看着不舒服，也暗示着随时可能弹出地更新窗口。
+<figure><a class="lightgallery" href="/bgk-decode/settings_red.jpg" title="设置更新小红点" data-thumbnail="/bgk-decode/settings_red.jpg" data-sub-html="<h2>设置更新小红点</h2><p>设置更新小红点</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="settings_red.jpg"
+            data-srcset="/bgk-decode/settings_red.jpg, settings_red.jpg 1.5x, /bgk-decode/settings_red.jpg 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/settings_red.jpg" />
+    </a><figcaption class="image-caption">设置更新小红点</figcaption>
+    </figure>
+<ul>
+<li>apk信息：
+使用MT/NP管理器查看apk版本信息如下：
+<figure><a class="lightgallery" href="/bgk-decode/bgk_origin.png" title="apk信息" data-thumbnail="/bgk-decode/bgk_origin.png" data-sub-html="<h2>apk信息</h2><p>apk信息</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="bgk_origin.png"
+            data-srcset="/bgk-decode/bgk_origin.png, bgk_origin.png 1.5x, /bgk-decode/bgk_origin.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/bgk_origin.png" />
+    </a><figcaption class="image-caption">apk信息</figcaption>
+    </figure></li>
+</ul>
+<h3 id="32-去除更新">3.2 去除更新</h3>
+<ul>
+<li>
+<p>JEB反编译：
+使用JEB反编译该apk，Manifest中找到VersionCode（经过测试，服务器不仅校验VersionName，还会检查Version Code是否最新，以此来推送更新）和VersionName。</p>
+</li>
+<li>
+<p>版本修改：
+对比新旧版本信息，打开NP管理器修改Manifest中的版本号和版本名称：</p>
+<ul>
+<li>
+<p>原版本：
+<figure><a class="lightgallery" href="/bgk-decode/version_ori.png" title="原版本" data-thumbnail="/bgk-decode/version_ori.png" data-sub-html="<h2>原版本</h2><p>原版本</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="version_ori.png"
+            data-srcset="/bgk-decode/version_ori.png, version_ori.png 1.5x, /bgk-decode/version_ori.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/version_ori.png" />
+    </a><figcaption class="image-caption">原版本</figcaption>
+    </figure>
+</li>
+<li>
+<p>新版本（修改图忘记截屏了）：</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>将版本名改为了imisu@9.9.9，版本号与最新版app同步（2213）</p>
+<figure><a class="lightgallery" href="/bgk-decode/version_new.png" title="新版本" data-thumbnail="/bgk-decode/version_new.png" data-sub-html="<h2>新版本</h2><p>新版本</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="version_new.png"
+            data-srcset="/bgk-decode/version_new.png, version_new.png 1.5x, /bgk-decode/version_new.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/version_new.png" />
+    </a><figcaption class="image-caption">新版本</figcaption>
+    </figure>
+<ul>
+<li>效果如下：
+<ul>
+<li>版本信息：</li>
+</ul>
+</li>
+</ul>
+<figure><a class="lightgallery" href="/bgk-decode/bgk_old_about.png" title="版本" data-thumbnail="/bgk-decode/bgk_old_about.png" data-sub-html="<h2>版本</h2><p>版本</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="bgk_old_about.png"
+            data-srcset="/bgk-decode/bgk_old_about.png, bgk_old_about.png 1.5x, /bgk-decode/bgk_old_about.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/bgk_old_about.png" />
+    </a><figcaption class="image-caption">版本</figcaption>
+    </figure>
+<ul>
+<li>小红点已消除，更新弹窗不会再弹出，手动检查版本也提示“已为最新版”
+<figure><a class="lightgallery" href="/bgk-decode/bgk-old_check.png" title="检查更新" data-thumbnail="/bgk-decode/bgk-old_check.png" data-sub-html="<h2>检查更新</h2><p>检查更新</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="bgk-old_check.png"
+            data-srcset="/bgk-decode/bgk-old_check.png, bgk-old_check.png 1.5x, /bgk-decode/bgk-old_check.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/bgk-old_check.png" />
+    </a><figcaption class="image-caption">检查更新</figcaption>
+    </figure></li>
+</ul>
+<h3 id="33-去除多余推广">3.3 去除多余推广</h3>
+<p>如图所示，”我的“界面有几项推广我们都用不到，可以去除这几项。</p>
+<figure><a class="lightgallery" href="/bgk-decode/bgk_ads.png" title="推广" data-thumbnail="/bgk-decode/bgk_ads.png" data-sub-html="<h2>推广</h2><p>推广</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="bgk_ads.png"
+            data-srcset="/bgk-decode/bgk_ads.png, bgk_ads.png 1.5x, /bgk-decode/bgk_ads.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/bgk_ads.png" />
+    </a><figcaption class="image-caption">推广</figcaption>
+    </figure>
+<p>打开MT管理器，找到resources.arsc：</p>
+<figure><a class="lightgallery" href="/bgk-decode/arsc.png" title="resources.arsc" data-thumbnail="/bgk-decode/arsc.png" data-sub-html="<h2>resources.arsc</h2><p>resources.arsc</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="arsc.png"
+            data-srcset="/bgk-decode/arsc.png, arsc.png 1.5x, /bgk-decode/arsc.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/arsc.png" />
+    </a><figcaption class="image-caption">resources.arsc</figcaption>
+    </figure>
+<p>，使用Arsc编辑器打开resources.arsc，在其中中搜索字符串常量”新人礼包“：</p>
+<figure><a class="lightgallery" href="/bgk-decode/search.png" title="新人礼包" data-thumbnail="/bgk-decode/search.png" data-sub-html="<h2>新人礼包</h2><p>新人礼包</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="search.png"
+            data-srcset="/bgk-decode/search.png, search.png 1.5x, /bgk-decode/search.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/search.png" />
+    </a><figcaption class="image-caption">新人礼包</figcaption>
+    </figure>
+<p>搜索结果中复制资源ID：</p>
+<figure><a class="lightgallery" href="/bgk-decode/id.png" title="复制ID" data-thumbnail="/bgk-decode/id.png" data-sub-html="<h2>复制ID</h2><p>复制ID</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="id.png"
+            data-srcset="/bgk-decode/id.png, id.png 1.5x, /bgk-decode/id.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/id.png" />
+    </a><figcaption class="image-caption">复制ID</figcaption>
+    </figure>
+<p>返回apk根目录，在XML中搜索资源ID（尝试通过修改页面布局来隐藏推广横幅），</p>
+<figure><a class="lightgallery" href="/bgk-decode/searchRes.png" title="搜索结果" data-thumbnail="/bgk-decode/searchRes.png" data-sub-html="<h2>搜索结果</h2><p>搜索结果</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="searchRes.png"
+            data-srcset="/bgk-decode/searchRes.png, searchRes.png 1.5x, /bgk-decode/searchRes.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/searchRes.png" />
+    </a><figcaption class="image-caption">搜索结果</figcaption>
+    </figure>
+<p>反编译其对应的xml，在xml中搜索之前的资源ID：</p>
+<p>定位如下：</p>
+<figure><a class="lightgallery" href="/bgk-decode/ID_xml.png" title="资源ID代码定位" data-thumbnail="/bgk-decode/ID_xml.png" data-sub-html="<h2>资源ID代码定位</h2><p>资源ID代码定位</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="ID_xml.png"
+            data-srcset="/bgk-decode/ID_xml.png, ID_xml.png 1.5x, /bgk-decode/ID_xml.png 2x"
+            data-sizes="auto"
+            alt="/bgk-decode/ID_xml.png" />
+    </a><figcaption class="image-caption">资源ID代码定位</figcaption>
+    </figure>
+<p>删除图中框选部分即可。</p>
+<p>成果出了点问题，下次展示。。。。</p>
+<p><strong>（凌晨0:40分了）</strong></p>
+<p>明天周一，得睡觉了，下次继续更新本文。</p>
+<h2 id="4-不挂科app去更新版本链接">4 【不挂科APP】去更新版本链接</h2>
+<ul>
+<li>
+<p>下载链接：</p>
+<ul>
+<li>
+<a href="https://wwi.lanzoux.com/ieWvswf58fa" title="点击跳转到蓝奏云" target="_blank" rel="noopener noreffer">2021/11/12更新-蓝奏云【解压密码：imisu】</a>
+</li>
+<li>
+<a href="https://pan.baidu.com/s/12q2R2qL7nHP-dOHOV5l0qQ" title="点击跳转到百度网盘" target="_blank" rel="noopener noreffer">百度云盘【解压密码：issk】</a>
+</li>
+</ul>
+</li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info"><div class="post-info-tag"><span><a href="/tags/%E5%AE%89%E5%8D%93%E9%80%86%E5%90%91/">安卓逆向</a>
+                </span><span><a href="/tags/jeb/">JEB</a>
+                </span><span><a href="/tags/androidkiller/">AndroidKiller</a>
+                </span><span><a href="/tags/mt/np%E7%AE%A1%E7%90%86%E5%99%A8/">MT/NP管理器</a>
+                </span></div><div class="post-info-line"><div class="post-info-mod">
+                <span>更新于 2022-03-05&nbsp;<a class="git-hash" href="https://github.com/Albresky//commit/02896390b1e4623da6aa3939d2c24b727658cfce" target="_blank" title="committed&nbsp;by&nbsp;Albresky(albre02@outlook.com)&nbsp;0289639:&nbsp;update a lot">
+                            <i class="fas fa-hashtag fa-fw"></i>0289639</a></span>
+            </div><div class="post-info-mod"></div>
+        </div><div class="post-info-share">
+            <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://cosyspark.space/bgk-decode/" data-title="《不挂科APP》基于旧版的精简与去更新" data-via="AlbrechtCarlosS" data-hashtags="安卓逆向,JEB,AndroidKiller,MT/NP管理器"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://cosyspark.space/bgk-decode/" data-hashtag="安卓逆向"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="http://cosyspark.space/bgk-decode/" data-title="《不挂科APP》基于旧版的精简与去更新" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://cosyspark.space/bgk-decode/" data-title="《不挂科APP》基于旧版的精简与去更新" data-image="featured-image.jpg"><i class="fab fa-weibo fa-fw"></i></a></span>
+        </div></div><div class="post-nav"><a href="/win11/" class="prev" rel="prev" title="如何学会滚"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
+            <a href="/offline/" class="next" rel="next" title="Offline">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
+</div><div id="comments" class="single-card"><div id="valine"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main>
+            <footer class="footer"><script src="/js/live2d/autoload.js"></script>
+
+<div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="http://cosyspark.space">Albresky</a></span></div>
+    
+    <div class="footer-line">
+        <span id="run-time"></span>
+    </div>
+</div><script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.min.js?version=1.0.1', { scope: '/' })
+        .then(() => {
+            console.info('CosySpark\u00A0Service Worker Registered');
+        }, err => console.error('CosySpark\u00A0Service Worker registration failed: ', err));
+
+    navigator.serviceWorker
+        .ready
+        .then(() => {
+            console.info('CosySpark\u00A0Service Worker Ready');
+        });
+}
+</script>
+</footer>
+        </div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-chevron-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment-alt fa-fw"></i>
+            </a></div><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.from%2CIntersectionObserver%2CMath.sign%2CObject.assign%2CPromise%2CObject.entries%2Chtml5shiv%2CObject.values%2Cfetch%2CElement.prototype.after"></script><script src="/lib/object-fit-images/ofi.min.js"></script><script src="/lib/valine/Valine.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/twemoji/twemoji.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/auto-render.min.js"></script><script src="/lib/katex/copy-tex.min.js"></script><script src="/lib/katex/mhchem.min.js"></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"isCN3G6Fxga9Ud86onbltnaB-gzGzoHsz","appKey":"ovKaSRUTyTGJbNQTqB3PKzgc","avatar":"mm","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":true,"highlight":true,"lang":"zh-CN","meta":["nick"],"pageSize":10,"placeholder":"Say something...","recordIP":false,"serverURLs":"https://iscn3g6f.lc-cn-n1-shared.com","visitor":true}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"twemoji":true};</script><script src="/js/theme.min.js"></script><script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?f95a414e1523592de48c12381ba61b0b";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script><script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.backstretch.min.js"></script><script type="text/javascript" src="/js/custom.js"></script>
+
+</body></html>

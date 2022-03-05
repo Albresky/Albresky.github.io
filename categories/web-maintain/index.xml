@@ -1,0 +1,30 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Web-Maintain - 分类 - CosySpark</title>
+        <link>http://cosyspark.space/categories/web-maintain/</link>
+        <description>Web-Maintain - 分类 - CosySpark</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
+            <webMaster>albre02@outlook.com (Albresky)</webMaster><lastBuildDate>Mon, 04 Oct 2021 17:20:00 &#43;0800</lastBuildDate><atom:link href="http://cosyspark.space/categories/web-maintain/" rel="self" type="application/rss+xml" /><item>
+    <title>功能预览</title>
+    <link>http://cosyspark.space/fuction-preview/</link>
+    <pubDate>Mon, 04 Oct 2021 17:20:00 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/fuction-preview/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/preview-l.jpg" referrerpolicy="no-referrer">
+            </div><p>imisu | <strong>功能预览 Function Preview</strong></p>]]></description>
+</item>
+<item>
+    <title>imisu网站更新日志</title>
+    <link>http://cosyspark.space/update-log/</link>
+    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/update-log/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>更新了一些功能，修复了许多Bug。</p>]]></description>
+</item>
+<item>
+    <title>第一篇文章</title>
+    <link>http://cosyspark.space/first-post/</link>
+    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/first-post/</guid>
+    <description><![CDATA[介绍 第一次测试 😀]]></description>
+</item>
+</channel>
+</rss>

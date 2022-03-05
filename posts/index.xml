@@ -1,0 +1,84 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - CosySpark</title>
+        <link>http://cosyspark.space/posts/</link>
+        <description>所有文章 | CosySpark</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>albre02@outlook.com (Albresky)</managingEditor>
+            <webMaster>albre02@outlook.com (Albresky)</webMaster><lastBuildDate>Fri, 25 Feb 2022 21:01:24 &#43;0800</lastBuildDate><atom:link href="http://cosyspark.space/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>树莓派4B之入门指南</title>
+    <link>http://cosyspark.space/raspberryguide/</link>
+    <pubDate>Fri, 25 Feb 2022 21:01:24 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/raspberryguide/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><p><strong>树莓派4B</strong>之系统安装、远程投屏、中文输入法设置、串口、传感器&hellip;</p>]]></description>
+</item>
+<item>
+    <title>《荒野大镖客》之ASS特效字幕制作</title>
+    <link>http://cosyspark.space/aegisubass/</link>
+    <pubDate>Wed, 16 Feb 2022 22:07:24 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/aegisubass/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><p><strong>Aegisub</strong>之ASS特效字幕制作</p>]]></description>
+</item>
+<item>
+    <title>百度网盘PC客户端之绿化小工具</title>
+    <link>http://cosyspark.space/merrybaidudisk/</link>
+    <pubDate>Tue, 08 Feb 2022 20:05:30 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/merrybaidudisk/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><p><strong>百度网盘PC客户端</strong>之绿化小工具</p>]]></description>
+</item>
+<item>
+    <title>Offline</title>
+    <link>http://cosyspark.space/offline/</link>
+    <pubDate>Mon, 11 Oct 2021 20:49:44 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/offline/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>《不挂科APP》基于旧版的精简与去更新</title>
+    <link>http://cosyspark.space/bgk-decode/</link>
+    <pubDate>Sun, 10 Oct 2021 22:05:30 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/bgk-decode/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p><strong>不挂科APP</strong>基于旧版的精简与去更新</p>]]></description>
+</item>
+<item>
+    <title>如何学会滚</title>
+    <link>http://cosyspark.space/win11/</link>
+    <pubDate>Fri, 08 Oct 2021 16:14:08 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/win11/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/preview.webp" referrerpolicy="no-referrer">
+            </div><p>快速水一篇~~如何从Windows 11<strong>滚回</strong>到Windows 10 🤡</p>]]></description>
+</item>
+<item>
+    <title>黑客帝国4：矩阵重生</title>
+    <link>http://cosyspark.space/the-matrix-resurrections/</link>
+    <pubDate>Tue, 05 Oct 2021 15:34:16 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/the-matrix-resurrections/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>Demo - <strong>黑客帝国4：矩阵重生</strong> 预告</p>]]></description>
+</item>
+<item>
+    <title>功能预览</title>
+    <link>http://cosyspark.space/fuction-preview/</link>
+    <pubDate>Mon, 04 Oct 2021 17:20:00 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/fuction-preview/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/preview-l.jpg" referrerpolicy="no-referrer">
+            </div><p>imisu | <strong>功能预览 Function Preview</strong></p>]]></description>
+</item>
+<item>
+    <title>imisu网站更新日志</title>
+    <link>http://cosyspark.space/update-log/</link>
+    <pubDate>Thu, 30 Sep 2021 15:40:40 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/update-log/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>更新了一些功能，修复了许多Bug。</p>]]></description>
+</item>
+<item>
+    <title>第一篇文章</title>
+    <link>http://cosyspark.space/first-post/</link>
+    <pubDate>Wed, 29 Sep 2021 18:58:59 &#43;0800</pubDate><author>albre02@outlook.com (Albresky)</author><guid>http://cosyspark.space/first-post/</guid>
+    <description><![CDATA[介绍 第一次测试 😀]]></description>
+</item>
+</channel>
+</rss>
