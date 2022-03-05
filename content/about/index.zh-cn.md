@@ -1,5 +1,5 @@
 ---
-title: "关于 imisu"
+title: "关于 CosySpark"
 subtitle: ""
 date: 2021-10-02T16:41:27+08:00
 lastmod: 2021-10-02T16:41:27+08:00
@@ -11,8 +11,8 @@ description: ""
 tags: []
 categories: []
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
+hiddenFromHomePage: true
+hiddenFromSearch: true
 
 featuredImage: ""
 featuredImagePreview: ""
