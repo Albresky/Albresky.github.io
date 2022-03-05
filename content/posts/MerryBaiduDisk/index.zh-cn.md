@@ -15,8 +15,8 @@ resources:
 tags: ["绿化","Qt"]
 categories: ["Qt"]
 
-featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/MerryBaiduDisk/featured-image.png"
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/MerryBaiduDisk/featured-image-preview.png"
+featuredImage: "featured-image.png"
+featuredImagePreview: "featured-image-preview.png"
 
 toc:
   enable: true
@@ -28,7 +28,7 @@ lightgallery: true
 <!--more-->
 ## 微信公众号
 
-{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
+{{< image src="/images/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
 
 ## 【Merry BaiduDisk】Release

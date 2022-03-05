@@ -20,8 +20,8 @@ categories: ["Web-Maintain"]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/Update-Log/featured-image.png"
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/Update-Log/featured-image-preview.png"
+featuredImage: "featured-image.png"
+featuredImagePreview: "featured-image-preview.png"
 
 toc:
   enable: true

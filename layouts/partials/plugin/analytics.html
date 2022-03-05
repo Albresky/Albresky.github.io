@@ -15,4 +15,17 @@
     {{- with $analytics.goatcounter.code -}}
         <script data-goatcounter="https://{{.}}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     {{- end -}}
+    {{- /* Baidu Analytics */ -}}
+    {{- with $analytics.baidu.id -}}
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?{{ . }}";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	{{- end -}}
+
 {{- end -}}

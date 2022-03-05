@@ -15,8 +15,8 @@ resources:
 tags: ["Aegisub"]
 categories: ["电影"]
 
-featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image.png"
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/AegisubAss/featured-image-preview.png"
+featuredImage: "featured-image.png"
+featuredImagePreview: "featured-image-preview.png"
 
 toc:
   enable: true
@@ -31,7 +31,7 @@ lightgallery: true
 
 <span style="color:red;">本文详情请关注微信公众号：</span>
 
-{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/BGK-Decode/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
+{{< image src="/images/wechat.png" caption="公众号：代码之火" title="公众号：代码之火">}}
 
 
 ## 片头曲 & 背景音乐

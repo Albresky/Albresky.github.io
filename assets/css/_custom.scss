@@ -2,3 +2,167 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+/* Github Corner */
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+    0%,
+    100% {
+        transform: rotate(0)
+    }
+    20%,
+    60% {
+        transform: rotate(-25deg)
+    }
+    40%,
+    80% {
+        transform: rotate(10deg)
+    }
+}
+
+@media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+        animation: none
+    }
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+    }
+}
+
+/* 首页头像 */
+/* bilibili头像挂件 */
+img.site-avatar-plug-bilibili {
+    position: absolute;
+    display: block;
+    margin: -2rem !important;
+    padding: 0;
+    width: 9rem !important;
+    max-width: 168px;
+    height: auto;
+    box-shadow: none !important;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* 头像旋转 */
+.home .home-profile .home-avatar img {
+    width: 5rem;
+
+  /* 设置循环动画
+  [animation: 
+	(play)动画名称
+	(2s)动画播放时长单位秒或微秒
+	(ease-out)动画播放的速度曲线为以低速结束 
+	(1s)等待1秒然后开始动画
+	(1)动画播放次数(infinite为循环播放) ]*/
+ 
+  /* 鼠标经过头像旋转360度 */
+  -webkit-transition: -webkit-transform 1.0s ease-out;
+  -moz-transition: -moz-transform 1.0s ease-out;
+  transition: transform 1.0s ease-out;
+    &:hover {
+      /* 鼠标经过停止头像旋转 
+      -webkit-animation-play-state:paused;
+      animation-play-state:paused;*/
+
+      /* 鼠标经过头像旋转360度 */
+      -webkit-transform: rotateZ(360deg);
+      -moz-transform: rotateZ(360deg);
+      transform: rotateZ(360deg);
+    }
+}
+/* Z 轴旋转动画 */
+@-webkit-keyframes play {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+  }
+}
+@-moz-keyframes play {
+  0% {
+    -moz-transform: rotateZ(0deg);
+  }
+  100% {
+    -moz-transform: rotateZ(-360deg);
+  }
+}
+@keyframes play {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+/* 侧边栏目录 */
+nav#TableOfContents ol {
+    padding-inline-start: 30px;
+
+    & ol {
+        padding-inline-start: 25px;
+        display: none;
+    }
+
+    & li.has-active ol {
+        display: block;
+    }
+}
+
+/* 子菜单栏 */
+.dropdown {
+    display: inline-block;
+  }
+  
+  /* 子菜单的内容 (默认隐藏) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    line-height: 1.3rem;
+  }
+  
+  /* 子菜单的链接 */
+  .dropdown-content a {
+    padding: 10px 18px 10px 14px;
+    text-decoration: none;
+    display: block;
+    & i {
+      margin-right: 3px;
+    }
+  }
+  
+  /* 鼠标移上去后修改子菜单链接颜色 */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  /* 在鼠标移上去后显示子菜单 */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 680px) {
+      .dropdown {
+        display: inline;
+      }
+    .dropdown:hover .dropdown-content {
+      display: inline;
+      z-index: 1;
+      margin-top: -2em;
+      margin-left: 3em;
+    }
+    .dropdown-content a:hover {
+      background-color: transparent;
+    }
+  }
+  

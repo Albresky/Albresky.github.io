@@ -15,8 +15,8 @@ resources:
 tags: ["Windows 11"]
 categories: ["系统"]
 
-featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/win11/preview.webp"
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/win11/preview-s.webp"
+featuredImage: "preview.webp"
+featuredImagePreview: "preview-s.webp"
 
 toc:
   enable: true
@@ -39,19 +39,19 @@ Windows 11就是大版本迭代更新都修复不了重启电脑Desktop图标错
 这还需要问吗？微软小更新小bug，大更新系统级BUG，更何况别人叫你**滚**呢？？？:clown_face:
 
 当前系统版本信息：
-{{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/win11/info.webp" caption="系统版本信息" title="当前Win11系统版本信息">}}
+{{< image src="info.webp" caption="系统版本信息" title="当前Win11系统版本信息">}}
 看到了吧，**Windows 11专业工作站版** ！！！。。。。
 
 工作站版bug也如此低级，所以你知道什么是微软Windows了吧。
  - 再看：
-  {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/win11/rightmenu.webp" caption="右击菜单" title="右击菜单">}}
+  {{< image src="rightmenu.webp" caption="右击菜单" title="右击菜单">}}
   作为一个天天都要右击的男孩，怎么能忍受如此shabby！！的右击菜单，没有了程序猿常用的一键vscode，一键git bash，一键刷新！！
   以下才是必备右击菜单，你说是不是！！
-    {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/win11/rightmenu_old.webp" caption="右击菜单old" title="右击菜单old">}}
+    {{< image src="rightmenu_old.webp" caption="右击菜单old" title="右击菜单old">}}
 
 
 ## 3 如何学会**滚**
 妈的我废话太多了，直接上图：
-  {{< image src="https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/win11/return.webp" caption="滚回Win10" title="滚回Win10">}}
+  {{< image src="return.webp" caption="滚回Win10" title="滚回Win10">}}
 点击“**返回**”即可
 {{< /admonition >}}　　

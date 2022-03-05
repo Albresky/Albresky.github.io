@@ -15,6 +15,9 @@ resources:
 tags: []
 categories: []
 
+password:
+outdatedInfoWarning: true
+
 featuredImage: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/featured-image.png"
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Albresky/Albresky.github.io@master/content/posts/featured-image-preview.png"
 

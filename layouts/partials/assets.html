@@ -226,3 +226,54 @@
 {{- end -}}
 
 {{- partial "plugin/analytics.html" . -}}
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+
+{{- /* 自定义的js文件 */ -}}
+<script type="text/javascript" src="/js/custom.js"></script>
+
+{{- /* 自定义的avatar plug */ -}}
+{{- if .IsHome -}}
+	<script>
+	{{- $profile := .Site.Params.home.profile -}}
+	{{- $avatarPlugin := $profile.avatarPluginURL -}}
+	{{- $avatarPluginFrequency := $profile.avatarPluginFrequency -}}
+	{{- $avatarPluginCount := $profile.avatarPluginCount -}}
+	{{- $avatarPluginSuffix := $profile.avatarPluginSuffix -}}
+	{{- $cdnPrefix := .Site.Params.cdnPrefix -}}
+	{{- if $avatarPlugin -}}
+		/* 头像挂件自动刷新 */
+		{{- if $profile.avatarPluginFlush -}}
+			$(function () {
+				$(".site-avatar-plug-bilibili").attr("src", "{{ $cdnPrefix }}/images/avatar-plug/{{ $avatarPluginSuffix }}/bilibili_" + (~~({{ $avatarPluginCount }}*Math.random())+1) + ".{{ $avatarPluginSuffix }}");
+			});
+		{{- else -}}
+			$(function () {
+				$(".site-avatar-plug-bilibili").attr("src", "{{ $cdnPrefix }}{{ $avatarPlugin }}");
+			});
+		{{- end -}}
+		
+		/* 点击头像更换b站挂件 */
+		var avatar_plug = 0;
+		var avatar_click = 1;
+		jQuery(document).ready(function($) {
+			/* 点击频率，点击几次就换挂件 */
+			var frequency = {{ $avatarPluginFrequency }};
+			/* 头像挂件总数 */
+			var plug_count = {{ $avatarPluginCount }};
+			$("div.home-avatar a").click(function(e) {
+				if (avatar_click % frequency === 0) {
+					avatar_plug ++;
+					$(".site-avatar-plug-bilibili").attr("src", "{{ $cdnPrefix }}/images/avatar-plug/{{ $avatarPluginSuffix }}/bilibili_" + avatar_plug + ".{{ $avatarPluginSuffix }}");
+				}		
+				if (avatar_plug === plug_count) {
+					avatar_plug = 0;
+				}
+				$("div.home-avatar a").attr("alt","再点击" + (frequency - avatar_click % frequency) + "次头像试试看~~");
+				avatar_click ++;
+			});
+		});
+	{{- end -}}
+	</script>
+{{- end -}}
